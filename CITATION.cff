@@ -5,14 +5,14 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "Iusmorfos: Dawkins Evolution Applied to Legal Systems"
-abstract: "First computational replication of Richard Dawkins' biomorphs experiment applied to the evolution of legal systems. Demonstrates Darwinian evolution of institutions through cumulative selection in a 9-dimensional legal space (iuspace)."
+title: "Iusmorfos: Empirical Validation of Evolutionary Dynamics in Legal Systems"
+abstract: "First empirical validation of evolutionary dynamics in legal systems using Dawkins biomorphs methodology. Analysis of 106 documented legal innovations provides evidence for Darwinian mechanisms in institutional development with statistical validation score of 0.753/1.000."
 
 authors:
   - family-names: "Lerer"
-    given-names: "Adrian"
-    orcid: "https://orcid.org/0000-0000-0000-0000"  # Add your ORCID if available
-    affiliation: "Independent Researcher"
+    given-names: "Ignacio Adrián"
+    email: "adrian@lerer.com.ar"
+    affiliation: "Investigador Independiente"
 
 contributors:
   - family-names: "AI Assistant"
@@ -66,13 +66,14 @@ references:
 
 preferred-citation:
   type: article
-  title: "Biomorfos Legales: Replicación del Experimento de Dawkins en el Espacio Jurídico"
+  title: "Empirical Validation of Evolutionary Dynamics in Legal Systems: Evidence from Natural Experiments and Computational Evolution"
   authors:
     - family-names: "Lerer"
-      given-names: "Adrian"
+      given-names: "Ignacio Adrián"
+      email: "adrian@lerer.com.ar"
   journal: "Pending Submission"
   year: 2025
-  abstract: "First computational demonstration that legal systems evolve according to Darwinian principles, using exact replication of Dawkins' biomorphs methodology applied to institutional evolution."
+  abstract: "First empirical validation of evolutionary dynamics in legal systems using 106 documented legal innovations, demonstrating Darwinian mechanisms with statistical significance (score: 0.753/1.000)."
   keywords:
     - "legal evolution"
     - "Dawkins biomorphs"

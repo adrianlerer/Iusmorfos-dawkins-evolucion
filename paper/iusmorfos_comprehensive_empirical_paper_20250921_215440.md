@@ -152,6 +152,10 @@ of results across multiple independent measures suggests **robust underlying evo
 
 **Funding**: [To be specified based on institutional requirements]
 
-**Author Contributions**: Comprehensive empirical validation and statistical analysis.
+**Author**: Ignacio Adrián Lerer, Investigador Independiente, adrian@lerer.com.ar
+
+**Author Contributions**: Conceptualization, methodology development, empirical validation, statistical analysis, and manuscript preparation.
 
 **Competing Interests**: None declared.
+
+**Correspondence**: adrian@lerer.com.ar
