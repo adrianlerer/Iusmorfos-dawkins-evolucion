@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-09-21T05:42:51.848471",
+  "tipo_validación": "EMPÍRICA COMPLETA",
+  "datos_fuente": "Dataset real multinacional de innovaciones legales",
+  "validación_familias_legales": {
+    "familias_experimento": {
+      "Common Law": 25
+    },
+    "familias_datos_reales": {
+      "Civil Law": 7,
+      "Sistema Híbrido": 15,
+      "Derecho Económico": 2,
+      "Derecho Transnacional": 6
+    },
+    "familias_coincidentes": [],
+    "porcentaje_coincidencia": 0.0,
+    "jusmorfos_reales_analizados": 30
+  },
+  "validación_ecuación_fitness": {
+    "precisión_porcentaje": 68.08513865811409,
+    "correlación": -0.5614196740656318,
+    "error_absoluto_medio": 0.31914861341885903,
+    "n_innovaciones_validadas": 30,
+    "ecuación_original": "P(éxito) = 0.92 * e^(-0.58 * distancia)",
+    "interpretación": "Validación débil: modelo requiere mejoras significativas"
+  },
+  "validación_velocidades_evolución": {
+    "velocidad_experimento": 0.0,
+    "velocidad_real_promedio": 0.271451247967718,
+    "velocidad_real_mediana": 0.1518079800498753,
+    "factor_aceleración_experimento": 0.0,
+    "n_difusiones_analizadas": 83,
+    "interpretación": "Experimento refleja velocidad real"
+  },
+  "resumen_validación": {
+    "puntaje_general": 34.042569329057045,
+    "clasificación": "DÉBIL",
+    "componentes_validados": 2,
+    "fortalezas": [],
+    "debilidades": [
+      "Baja coincidencia en familias legales emergentes",
+      "Correlación débil entre predicción y realidad"
+    ]
+  },
+  "recomendaciones_mejora": [
+    "Ajustar algoritmo de clasificación de familias legales",
+    "Recalibrar parámetros α y β de la ecuación de fitness",
+    "Implementar validación cruzada con datos de otros países",
+    "Agregar dimensiones del iuspace específicas para capturar más variación"
+  ]
+}

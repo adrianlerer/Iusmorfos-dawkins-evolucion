@@ -1,0 +1,81 @@
+# CITATION.cff
+# Citation File Format for academic software citation
+# https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Iusmorfos: Dawkins Evolution Applied to Legal Systems"
+abstract: "First computational replication of Richard Dawkins' biomorphs experiment applied to the evolution of legal systems. Demonstrates Darwinian evolution of institutions through cumulative selection in a 9-dimensional legal space (iuspace)."
+
+authors:
+  - family-names: "Lerer"
+    given-names: "Adrian"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Add your ORCID if available
+    affiliation: "Independent Researcher"
+
+contributors:
+  - family-names: "AI Assistant"
+    given-names: "Claude"
+    affiliation: "Anthropic"
+    type: "software development"
+
+repository-code: "https://github.com/adrianlerer/Iusmorfos-dawkins-evolucion"
+url: "https://github.com/adrianlerer/Iusmorfos-dawkins-evolucion"
+version: "1.0.0"
+date-released: "2025-09-21"
+license: MIT
+
+keywords:
+  - "evolutionary biology"
+  - "legal systems"
+  - "institutional evolution" 
+  - "Dawkins biomorphs"
+  - "computational law"
+  - "legal complexity"
+  - "comparative law"
+  - "legal families"
+  - "cumulative selection"
+  - "iuspace"
+
+references:
+  - type: book
+    title: "The Blind Watchmaker: Why the Evidence of Evolution Reveals a Universe without Design"
+    authors:
+      - family-names: "Dawkins"
+        given-names: "Richard"
+    year: 1986
+    publisher:
+      name: "W. W. Norton & Company"
+    isbn: "978-0393315707"
+    
+  - type: article
+    title: "Measuring the Complexity of the Law: The United States Code"
+    authors:
+      - family-names: "Bommarito"
+        given-names: "Michael J."
+      - family-names: "Katz"
+        given-names: "Daniel Martin"
+    journal: "Artificial Intelligence and Law"
+    year: 2014
+    volume: 22
+    issue: 4
+    start: 337
+    end: 374
+    doi: "10.1007/s10506-014-9160-8"
+
+preferred-citation:
+  type: article
+  title: "Biomorfos Legales: Replicación del Experimento de Dawkins en el Espacio Jurídico"
+  authors:
+    - family-names: "Lerer"
+      given-names: "Adrian"
+  journal: "Pending Submission"
+  year: 2025
+  abstract: "First computational demonstration that legal systems evolve according to Darwinian principles, using exact replication of Dawkins' biomorphs methodology applied to institutional evolution."
+  keywords:
+    - "legal evolution"
+    - "Dawkins biomorphs"
+    - "institutional analysis"
+    - "computational law"
+  url: "https://github.com/adrianlerer/Iusmorfos-dawkins-evolucion/blob/main/paper/biomorfos_legales_paper.md"

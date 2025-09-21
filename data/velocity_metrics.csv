@@ -1,0 +1,41 @@
+metric_id,period,area_derecho,metric_type,value,unit,baseline_comparison,methodology,data_source,confidence_level,notes
+VEL001,1950-1980,General,Reform_Frequency,2.3,reforms_per_year,OECD_avg_1.8,Legislative count InfoLeg,InfoLeg database,High,Pre-democratic period low velocity
+VEL002,1981-1990,General,Reform_Frequency,4.7,reforms_per_year,OECD_avg_1.8,Legislative count InfoLeg,InfoLeg database,High,Transition acceleration
+VEL003,1991-2000,General,Reform_Frequency,8.2,reforms_per_year,OECD_avg_2.1,Legislative count InfoLeg,InfoLeg database,High,Menem era structural reforms
+VEL004,2001-2010,General,Reform_Frequency,6.8,reforms_per_year,OECD_avg_2.3,Legislative count InfoLeg,InfoLeg database,High,Post-crisis stabilization
+VEL005,2011-2020,General,Reform_Frequency,5.4,reforms_per_year,OECD_avg_2.5,Legislative count InfoLeg,InfoLeg database,High,Kirchner era slower pace
+VEL006,2021-2024,General,Reform_Frequency,7.1,reforms_per_year,OECD_avg_2.7,Legislative count InfoLeg,InfoLeg database,Medium,Current administration
+VCC001,1869-1968,Civil,Codigo_Stability,99,years_no_major_reform,France_94_years,Historical analysis,Constitutional sources,High,Exceptional stability period
+VCC002,1968-2015,Civil,Major_Reforms,3,number_reforms,Germany_7_reforms,Reform impact analysis,Academic literature,High,Acceleration in democratic period
+VCC003,2015-2024,Civil,Post_Unification,47,minor_modifications,Spain_23_modifications,Modification tracking,SAIJ database,Medium,New code adaptation period
+VCM001,1862-1999,Commercial,Codigo_Lifespan,137,years_total_life,Germany_122_years,Historical documentation,InfoLeg archives,High,Replaced by special laws
+VCM002,1999-2024,Commercial,Special_Laws,89,new_commercial_laws,Chile_45_laws,Legislative count,Congress records,High,Fragmentation trend
+VTR001,1990-2000,Tributario,Reform_Cycle,18,months_avg_between_reforms,OECD_36_months,Tax reform tracking,AFIP communications,High,Hyperactivity period
+VTR002,2001-2010,Tributario,Reform_Cycle,24,months_avg_between_reforms,OECD_36_months,Tax reform tracking,AFIP communications,High,Crisis response period
+VTR003,2011-2024,Tributario,Reform_Cycle,14,months_avg_between_reforms,OECD_36_months,Tax reform tracking,AFIP communications,High,Fiscal pressure acceleration
+VFI001,1990-2000,Financiero,Innovation_Speed,45,days_innovation_to_regulation,US_180_days,Market innovation tracking,CNV-BCRA,Medium,Catching up period
+VFI002,2001-2010,Financiero,Innovation_Speed,120,days_innovation_to_regulation,US_180_days,Market innovation tracking,CNV-BCRA,Medium,Crisis slower response
+VFI003,2011-2020,Financiero,Innovation_Speed,85,days_innovation_to_regulation,US_150_days,Market innovation tracking,CNV-BCRA,Medium,Technology acceleration
+VFI004,2021-2024,Financiero,Innovation_Speed,35,days_innovation_to_regulation,US_120_days,Market innovation tracking,CNV-BCRA,High,Fintech era rapid response
+VCR001,1989-1991,Crisis_Response,Legal_Emergency_Speed,7,days_avg_emergency_decree,Normal_45_days,Emergency legislation tracking,Presidency records,High,Hyperinflation crisis
+VCR002,2001-2002,Crisis_Response,Legal_Emergency_Speed,3,days_avg_emergency_decree,Normal_45_days,Emergency legislation tracking,Presidency records,High,Convertibility collapse
+VCR003,2008-2009,Crisis_Response,Legal_Emergency_Speed,15,days_avg_emergency_decree,Normal_45_days,Emergency legislation tracking,Presidency records,High,Global financial crisis
+VCR004,2020-2021,Crisis_Response,Legal_Emergency_Speed,2,days_avg_emergency_decree,Normal_45_days,Emergency legislation tracking,Presidency records,High,COVID pandemic response
+VCA001,1995-2024,Constitucional,Amparo_Cases,2847,cases_per_year_avg,Brazil_1200_cases,CSJN statistics,Judicial statistics,High,Constitutional remedy expansion
+VCA002,1994-2024,Constitucional,Rights_Expansion,23,new_constitutional_rights_recognized,Chile_15_rights,Case law analysis,CSJN jurisprudence,Medium,Via judicial interpretation
+VBC001,1935-2024,Bancario,BCRA_Communications,3456,total_communications_A,ECB_2100_communications,Central bank tracking,BCRA website,High,Hyperactive monetary policy
+VBC002,2019-2024,Bancario,Exchange_Controls,127,new_exchange_regulations,Brazil_45_regulations,Foreign exchange tracking,BCRA communications,High,Multiple controls period
+VLA001,1990-2024,Laboral,Collective_Bargaining,847,agreements_per_year_avg,Spain_456_agreements,Labor ministry data,Ministry of Labor,High,Strong union activity
+VLA002,2020-2024,Laboral,Remote_Work,23,labor_law_modifications,Chile_8_modifications,COVID labor tracking,Congress records,Medium,Pandemic acceleration
+VAD001,1983-2024,Administrativo,Regulatory_Agencies,47,new_agencies_created,Mexico_29_agencies,Administrative law tracking,State organization,High,Regulatory state expansion
+VAD002,1999-2024,Administrativo,Deregulation_Attempts,156,deregulation_initiatives,Chile_89_initiatives,Deregulation tracking,Executive records,Medium,Mixed success rate
+VPE001,1994-2024,Procesal,Procedure_Reforms,178,procedural_modifications,Brazil_234_modifications,Procedural law tracking,Judicial Council,High,Modernization efforts
+VPE002,2017-2024,Procesal,Digital_Procedures,89,digital_procedure_implementations,Chile_45_implementations,Digital justice tracking,Judicial statistics,High,Technology adoption
+VEN001,1994-2024,Ambiental,Environmental_Cases,1247,cases_per_year_avg,Brazil_2100_cases,Environmental law tracking,CSJN-Lower courts,Medium,Rights recognition growth
+VEN002,2016-2024,Ambiental,Climate_Legislation,12,climate_related_laws,Chile_18_laws,Climate law tracking,Congress environmental,Medium,Catching up internationally
+VCO001,1990-2024,Consumidor,Consumer_Protection,234,consumer_law_modifications,Spain_156_modifications,Consumer law tracking,Commerce secretariat,High,Active consumer protection
+VCO002,2009-2024,Consumidor,Class_Actions,89,collective_consumer_cases,Brazil_456_cases,Collective action tracking,CSJN statistics,Medium,Limited class action culture
+VIM001,1991-2024,Inmobiliario,Real_Estate_Innovation,67,new_real_estate_instruments,Chile_34_instruments,Real estate tracking,Property registries,High,Financial innovation driven
+VIM002,2017-2024,Inmobiliario,Proptech_Regulation,15,proptech_regulatory_responses,Mexico_8_responses,Technology regulation tracking,Provincial registries,Medium,Early regulatory response
+VCY001,2021-2024,Crypto,Crypto_Regulation_Speed,180,days_avg_regulatory_response,Global_avg_365_days,Crypto regulation tracking,BCRA-CNV-UIF,High,Rapid but restrictive approach
+VCY002,2017-2024,Crypto,Crypto_Market_Growth,2340,percent_growth_crypto_adoption,Global_avg_890_percent,Crypto market analysis,Exchange data,Medium,Despite regulatory resistance
