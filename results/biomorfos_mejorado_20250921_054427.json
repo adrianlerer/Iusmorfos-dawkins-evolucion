@@ -1,0 +1,851 @@
+{
+  "experimento": "Biomorfos Legales Mejorados - Replicación Dawkins v2.0",
+  "timestamp": "2025-09-21T05:44:27.536393",
+  "generaciones_completadas": 30,
+  "modo_selección": "automático_mejorado",
+  "parámetros_fitness": {
+    "factor_complejidad": 0.4,
+    "factor_diversidad": 0.3,
+    "factor_balance": 0.3
+  },
+  "sistema_inicial": {
+    "nombre": "Neminem Laedere",
+    "genes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "complejidad": 1.0
+  },
+  "sistema_final": {
+    "nombre": "Sistema_G30_1",
+    "familia_legal": "Common Law",
+    "genes": [
+      5,
+      3,
+      3,
+      3,
+      5,
+      4,
+      7,
+      4,
+      6
+    ],
+    "complejidad": 4.444444444444445,
+    "características": [
+      "Sistema mixto formal-informal",
+      "Federalismo descentralizado",
+      "Common law puro",
+      "Derechos colectivos primarios",
+      "Sistema punitivo moderado",
+      "Complejidad procesal media",
+      "Integración económica parcial",
+      "Apertura internacional selectiva",
+      "Digitalización parcial"
+    ],
+    "fitness": 1.0
+  },
+  "evolución_completa": {
+    "distancia_total_recorrida": 11.090536506409418,
+    "incremento_complejidad": 3.4444444444444446,
+    "familias_exploradas": 2,
+    "historia_generaciones": [
+      {
+        "generación": 1,
+        "padre": "Neminem Laedere",
+        "elegido": "Sistema_G1_4",
+        "familia": "Common Law",
+        "complejidad": 1.2222222222222223,
+        "genes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1
+        ],
+        "fitness": 0.4011765272256063,
+        "fitness_componentes": {
+          "complejidad": 0.12222222222222223,
+          "diversidad": 0.13333333333333333,
+          "balance": 0.8742921277890582
+        }
+      },
+      {
+        "generación": 2,
+        "padre": "Sistema_G1_4",
+        "elegido": "Sistema_G2_5",
+        "familia": "Common Law",
+        "complejidad": 1.4444444444444444,
+        "genes": [
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          1
+        ],
+        "fitness": 0.46445755511571574,
+        "fitness_componentes": {
+          "complejidad": 0.14444444444444443,
+          "diversidad": 0.1885618083164127,
+          "balance": 0.8337041161433804
+        }
+      },
+      {
+        "generación": 3,
+        "padre": "Sistema_G2_5",
+        "elegido": "Sistema_G3_7",
+        "familia": "Common Law",
+        "complejidad": 1.6666666666666667,
+        "genes": [
+          3,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          1
+        ],
+        "fitness": 0.529380156474498,
+        "fitness_componentes": {
+          "complejidad": 0.16666666666666669,
+          "diversidad": 0.2309401076758503,
+          "balance": 0.8114381916835873
+        }
+      },
+      {
+        "generación": 4,
+        "padre": "Sistema_G3_7",
+        "elegido": "Sistema_G4_4",
+        "familia": "Common Law",
+        "complejidad": 2.0,
+        "genes": [
+          3,
+          1,
+          1,
+          3,
+          4,
+          1,
+          3,
+          1,
+          1
+        ],
+        "fitness": 0.6023694815963617,
+        "fitness_componentes": {
+          "complejidad": 0.2,
+          "diversidad": 0.30550504633038933,
+          "balance": 0.7690598923241497
+        }
+      },
+      {
+        "generación": 5,
+        "padre": "Sistema_G4_4",
+        "elegido": "Sistema_G5_5",
+        "familia": "Common Law",
+        "complejidad": 2.2222222222222223,
+        "genes": [
+          3,
+          1,
+          3,
+          3,
+          4,
+          1,
+          3,
+          1,
+          1
+        ],
+        "fitness": 0.6709019620409851,
+        "fitness_componentes": {
+          "complejidad": 0.22222222222222224,
+          "diversidad": 0.3333333333333333,
+          "balance": 0.7733769105069873
+        }
+      },
+      {
+        "generación": 6,
+        "padre": "Sistema_G5_5",
+        "elegido": "Sistema_G6_7",
+        "familia": "Common Law",
+        "complejidad": 2.4444444444444446,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          1,
+          3,
+          1,
+          1
+        ],
+        "fitness": 0.7415366536096316,
+        "fitness_componentes": {
+          "complejidad": 0.24444444444444446,
+          "diversidad": 0.35901098714230023,
+          "balance": 0.7868519322972125
+        }
+      },
+      {
+        "generación": 7,
+        "padre": "Sistema_G6_7",
+        "elegido": "Sistema_G7_4",
+        "familia": "Common Law",
+        "complejidad": 2.7777777777777777,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          1,
+          3,
+          1,
+          4
+        ],
+        "fitness": 0.8225752678671858,
+        "fitness_componentes": {
+          "complejidad": 0.2777777777777778,
+          "diversidad": 0.41096093353126506,
+          "balance": 0.7939195889889843
+        }
+      },
+      {
+        "generación": 8,
+        "padre": "Sistema_G7_4",
+        "elegido": "Sistema_G8_7",
+        "familia": "Common Law",
+        "complejidad": 3.0,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          1,
+          4
+        ],
+        "fitness": 0.9006250191124936,
+        "fitness_componentes": {
+          "complejidad": 0.3,
+          "diversidad": 0.43204937989385733,
+          "balance": 0.8367006838144548
+        }
+      },
+      {
+        "generación": 9,
+        "padre": "Sistema_G8_7",
+        "elegido": "Sistema_G9_7",
+        "familia": "Common Law",
+        "complejidad": 3.2222222222222223,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          4
+        ],
+        "fitness": 0.9895911059729013,
+        "fitness_componentes": {
+          "complejidad": 0.32222222222222224,
+          "diversidad": 0.4521553322083512,
+          "balance": 0.9168520580716902
+        }
+      },
+      {
+        "generación": 10,
+        "padre": "Sistema_G9_7",
+        "elegido": "Sistema_G10_6",
+        "familia": "Common Law",
+        "complejidad": 3.4444444444444446,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          5,
+          3,
+          4
+        ],
+        "fitness": 0.9989971465419294,
+        "fitness_componentes": {
+          "complejidad": 0.34444444444444444,
+          "diversidad": 0.507718207057594,
+          "balance": 0.863013022156245
+        }
+      },
+      {
+        "generación": 11,
+        "padre": "Sistema_G10_6",
+        "elegido": "Sistema_G11_1",
+        "familia": "Common Law",
+        "complejidad": 3.5555555555555554,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          5,
+          3,
+          5
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.3555555555555555,
+          "diversidad": 0.5374838498865699,
+          "balance": 0.8337041161433804
+        }
+      },
+      {
+        "generación": 12,
+        "padre": "Sistema_G11_1",
+        "elegido": "Sistema_G12_2",
+        "familia": "Common Law",
+        "complejidad": 3.6666666666666665,
+        "genes": [
+          4,
+          3,
+          3,
+          3,
+          4,
+          3,
+          5,
+          3,
+          5
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.36666666666666664,
+          "diversidad": 0.5577733510227171,
+          "balance": 0.8367006838144548
+        }
+      },
+      {
+        "generación": 13,
+        "padre": "Sistema_G12_2",
+        "elegido": "Sistema_G13_1",
+        "familia": "Common Law",
+        "complejidad": 3.5555555555555554,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          5,
+          3,
+          5
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.3555555555555555,
+          "diversidad": 0.5374838498865699,
+          "balance": 0.8337041161433804
+        }
+      },
+      {
+        "generación": 14,
+        "padre": "Sistema_G13_1",
+        "elegido": "Sistema_G14_3",
+        "familia": "Common Law",
+        "complejidad": 3.6666666666666665,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          5,
+          3,
+          5
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.36666666666666664,
+          "diversidad": 0.5577733510227171,
+          "balance": 0.8367006838144548
+        }
+      },
+      {
+        "generación": 15,
+        "padre": "Sistema_G14_3",
+        "elegido": "Sistema_G15_1",
+        "familia": "Common Law",
+        "complejidad": 3.7777777777777777,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          5,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.37777777777777777,
+          "diversidad": 0.5925462944877059,
+          "balance": 0.7939195889889843
+        }
+      },
+      {
+        "generación": 16,
+        "padre": "Sistema_G15_1",
+        "elegido": "Sistema_G16_4",
+        "familia": "Common Law",
+        "complejidad": 4.0,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4,
+          "diversidad": 0.6633249580710799,
+          "balance": 0.717157287525381
+        }
+      },
+      {
+        "generación": 17,
+        "padre": "Sistema_G16_4",
+        "elegido": "Sistema_G17_1",
+        "familia": "Common Law",
+        "complejidad": 3.888888888888889,
+        "genes": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.3888888888888889,
+          "diversidad": 0.6463573143221772,
+          "balance": 0.7102576708798822
+        }
+      },
+      {
+        "generación": 18,
+        "padre": "Sistema_G17_1",
+        "elegido": "Sistema_G18_1",
+        "familia": "Common Law",
+        "complejidad": 4.0,
+        "genes": [
+          4,
+          3,
+          3,
+          3,
+          3,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4,
+          "diversidad": 0.6633249580710799,
+          "balance": 0.717157287525381
+        }
+      },
+      {
+        "generación": 19,
+        "padre": "Sistema_G18_1",
+        "elegido": "Sistema_G19_1",
+        "familia": "Derecho Comunitario",
+        "complejidad": 4.111111111111111,
+        "genes": [
+          4,
+          3,
+          4,
+          3,
+          3,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4111111111111111,
+          "diversidad": 0.679869268479038,
+          "balance": 0.72602604431249
+        }
+      },
+      {
+        "generación": 20,
+        "padre": "Sistema_G19_1",
+        "elegido": "Sistema_G20_1",
+        "familia": "Common Law",
+        "complejidad": 4.0,
+        "genes": [
+          4,
+          3,
+          3,
+          3,
+          3,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4,
+          "diversidad": 0.6633249580710799,
+          "balance": 0.717157287525381
+        }
+      },
+      {
+        "generación": 21,
+        "padre": "Sistema_G20_1",
+        "elegido": "Sistema_G21_1",
+        "familia": "Common Law",
+        "complejidad": 4.111111111111111,
+        "genes": [
+          4,
+          3,
+          3,
+          3,
+          4,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4111111111111111,
+          "diversidad": 0.679869268479038,
+          "balance": 0.72602604431249
+        }
+      },
+      {
+        "generación": 22,
+        "padre": "Sistema_G21_1",
+        "elegido": "Sistema_G22_1",
+        "familia": "Common Law",
+        "complejidad": 4.0,
+        "genes": [
+          4,
+          3,
+          3,
+          3,
+          4,
+          3,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4,
+          "diversidad": 0.6633249580710799,
+          "balance": 0.717157287525381
+        }
+      },
+      {
+        "generación": 23,
+        "padre": "Sistema_G22_1",
+        "elegido": "Sistema_G23_1",
+        "familia": "Common Law",
+        "complejidad": 4.111111111111111,
+        "genes": [
+          4,
+          3,
+          3,
+          3,
+          4,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4111111111111111,
+          "diversidad": 0.679869268479038,
+          "balance": 0.72602604431249
+        }
+      },
+      {
+        "generación": 24,
+        "padre": "Sistema_G23_1",
+        "elegido": "Sistema_G24_1",
+        "familia": "Common Law",
+        "complejidad": 4.222222222222222,
+        "genes": [
+          5,
+          3,
+          3,
+          3,
+          4,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4222222222222222,
+          "diversidad": 0.7023769168568492,
+          "balance": 0.7206709980005215
+        }
+      },
+      {
+        "generación": 25,
+        "padre": "Sistema_G24_1",
+        "elegido": "Sistema_G25_1",
+        "familia": "Common Law",
+        "complejidad": 4.333333333333333,
+        "genes": [
+          5,
+          3,
+          3,
+          3,
+          5,
+          4,
+          7,
+          3,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4333333333333333,
+          "diversidad": 0.7241853660800144,
+          "balance": 0.717157287525381
+        }
+      },
+      {
+        "generación": 26,
+        "padre": "Sistema_G25_1",
+        "elegido": "Sistema_G26_1",
+        "familia": "Common Law",
+        "complejidad": 4.444444444444445,
+        "genes": [
+          5,
+          3,
+          3,
+          3,
+          5,
+          4,
+          7,
+          4,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4444444444444445,
+          "diversidad": 0.7393691004272945,
+          "balance": 0.7314878672534539
+        }
+      },
+      {
+        "generación": 27,
+        "padre": "Sistema_G26_1",
+        "elegido": "Sistema_G27_1",
+        "familia": "Common Law",
+        "complejidad": 4.555555555555555,
+        "genes": [
+          5,
+          3,
+          3,
+          3,
+          6,
+          4,
+          7,
+          4,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.45555555555555555,
+          "diversidad": 0.7659416862050705,
+          "balance": 0.71541670055854
+        }
+      },
+      {
+        "generación": 28,
+        "padre": "Sistema_G27_1",
+        "elegido": "Sistema_G28_1",
+        "familia": "Common Law",
+        "complejidad": 4.666666666666667,
+        "genes": [
+          5,
+          3,
+          3,
+          3,
+          6,
+          5,
+          7,
+          4,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4666666666666667,
+          "diversidad": 0.7859884081701064,
+          "balance": 0.717157287525381
+        }
+      },
+      {
+        "generación": 29,
+        "padre": "Sistema_G28_1",
+        "elegido": "Sistema_G29_1",
+        "familia": "Common Law",
+        "complejidad": 4.555555555555555,
+        "genes": [
+          5,
+          3,
+          3,
+          3,
+          6,
+          4,
+          7,
+          4,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.45555555555555555,
+          "diversidad": 0.7659416862050705,
+          "balance": 0.71541670055854
+        }
+      },
+      {
+        "generación": 30,
+        "padre": "Sistema_G29_1",
+        "elegido": "Sistema_G30_1",
+        "familia": "Common Law",
+        "complejidad": 4.444444444444445,
+        "genes": [
+          5,
+          3,
+          3,
+          3,
+          5,
+          4,
+          7,
+          4,
+          6
+        ],
+        "fitness": 1.0,
+        "fitness_componentes": {
+          "complejidad": 0.4444444444444445,
+          "diversidad": 0.7393691004272945,
+          "balance": 0.7314878672534539
+        }
+      }
+    ]
+  },
+  "familias_emergentes": {
+    "Common Law": 29,
+    "Derecho Comunitario": 1
+  },
+  "análisis_evolución": {
+    "tendencias_por_dimensión": {
+      "formalismo": {
+        "cambio_total": 4,
+        "valor_inicial": 1,
+        "valor_final": 5,
+        "dirección": "creciente"
+      },
+      "centralización": {
+        "cambio_total": 2,
+        "valor_inicial": 1,
+        "valor_final": 3,
+        "dirección": "creciente"
+      },
+      "codificación": {
+        "cambio_total": 2,
+        "valor_inicial": 1,
+        "valor_final": 3,
+        "dirección": "creciente"
+      },
+      "individualismo": {
+        "cambio_total": 2,
+        "valor_inicial": 1,
+        "valor_final": 3,
+        "dirección": "creciente"
+      },
+      "punitividad": {
+        "cambio_total": 4,
+        "valor_inicial": 1,
+        "valor_final": 5,
+        "dirección": "creciente"
+      },
+      "procesal_complejidad": {
+        "cambio_total": 3,
+        "valor_inicial": 1,
+        "valor_final": 4,
+        "dirección": "creciente"
+      },
+      "economía_integración": {
+        "cambio_total": 4,
+        "valor_inicial": 3,
+        "valor_final": 7,
+        "dirección": "creciente"
+      },
+      "internacionalización": {
+        "cambio_total": 3,
+        "valor_inicial": 1,
+        "valor_final": 4,
+        "dirección": "creciente"
+      },
+      "digitalización": {
+        "cambio_total": 5,
+        "valor_inicial": 1,
+        "valor_final": 6,
+        "dirección": "creciente"
+      }
+    },
+    "dimensiones_más_evolutivas": [
+      "digitalización",
+      "formalismo",
+      "punitividad"
+    ],
+    "estabilidad_general": 3.2222222222222223
+  },
+  "velocidad_evolución": 0.08703703703703704,
+  "predicción_complejidad_moderna": 35
+}
