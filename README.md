@@ -260,7 +260,7 @@ If you use this work in your research, please cite:
 ```bibtex
 @software{lerer2025iusmorfos,
   title={Iusmorfos: Dawkins Evolution Applied to Legal Systems},
-  author={Lerer, Adrian and AI Assistant},
+  author={Lerer, Ignacio Adrián},
   year={2025},
   url={https://github.com/adrianlerer/Iusmorfos-dawkins-evolucion},
   version={1.0},
@@ -270,12 +270,12 @@ If you use this work in your research, please cite:
 
 ### Academic Paper Citation
 ```bibtex
-@article{lerer2025biomorfos,
-  title={Biomorfos Legales: Replicación del Experimento de Dawkins en el Espacio Jurídico},
-  author={Lerer, Adrian},
+@article{lerer2025empirical,
+  title={Empirical Validation of Evolutionary Dynamics in Legal Systems: Evidence from Natural Experiments and Computational Evolution},
+  author={Lerer, Ignacio Adrián},
   journal={Pending Submission},
   year={2025},
-  note={Computational demonstration of Darwinian evolution in legal systems}
+  note={First empirical validation of Dawkins biomorphs methodology applied to legal systems}
 }
 ```
 
@@ -315,10 +315,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 📧 Contact
 
-**Adrian Lerer**  
-📧 [Your email]  
-🔗 [Your academic profile]  
-🐦 [Your Twitter/academic social media]
+**Ignacio Adrián Lerer**  
+*Investigador Independiente*  
+📧 adrian@lerer.com.ar  
+🔗 GitHub: [@adrianlerer](https://github.com/adrianlerer)  
+📍 Argentina
 
 **For academic collaboration or questions about replication, please open an issue or contact directly.**
 
