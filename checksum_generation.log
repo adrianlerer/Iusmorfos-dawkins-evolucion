@@ -1,0 +1,64 @@
+2025-09-23 04:35:22,389 - INFO - Starting checksum generation...
+2025-09-23 04:35:22,405 - INFO - Processing 1/58: ACHIEVEMENT_SUMMARY.md
+2025-09-23 04:35:22,405 - INFO - Processing 2/58: CITATION.cff
+2025-09-23 04:35:22,406 - INFO - Processing 3/58: CONTRIBUTING.md
+2025-09-23 04:35:22,406 - INFO - Processing 4/58: Dockerfile
+2025-09-23 04:35:22,406 - INFO - Processing 5/58: LICENSE
+2025-09-23 04:35:22,407 - INFO - Processing 6/58: PRIORITY_6_COMPLETION.md
+2025-09-23 04:35:22,407 - INFO - Processing 7/58: README.md
+2025-09-23 04:35:22,408 - INFO - Processing 8/58: README_REPRODUCIBILITY.md
+2025-09-23 04:35:22,408 - INFO - Processing 9/58: REPRODUCIBILITY.md
+2025-09-23 04:35:22,409 - INFO - Processing 10/58: SCIENTIFIC_DOCUMENTATION.md
+2025-09-23 04:35:22,409 - INFO - Processing 11/58: SECURITY.md
+2025-09-23 04:35:22,409 - INFO - Processing 12/58: WORLD_CLASS_REPRODUCIBILITY_ACHIEVEMENT.md
+2025-09-23 04:35:22,410 - INFO - Processing 13/58: app/streamlit_app.py
+2025-09-23 04:35:22,411 - INFO - Processing 14/58: config/config.yaml
+2025-09-23 04:35:22,411 - INFO - Processing 15/58: config/security_config.yaml
+2025-09-23 04:35:22,411 - INFO - Processing 16/58: data/evolution_cases.csv
+2025-09-23 04:35:22,412 - INFO - Processing 17/58: data/innovations_exported.csv
+2025-09-23 04:35:22,412 - INFO - Processing 18/58: data/velocity_metrics.csv
+2025-09-23 04:35:22,412 - INFO - Processing 19/58: docs/CONTRIBUTING.md
+2025-09-23 04:35:22,412 - INFO - Processing 20/58: docs/REPLICATION.md
+2025-09-23 04:35:22,413 - INFO - Processing 21/58: environment.yml
+2025-09-23 04:35:22,413 - INFO - Processing 22/58: notebooks/01_exploratory_data_analysis.ipynb
+2025-09-23 04:35:22,413 - INFO - Processing 23/58: notebooks/01_exploratory_data_analysis.py
+2025-09-23 04:35:22,414 - INFO - Processing 24/58: notebooks/02_external_validation_analysis.ipynb
+2025-09-23 04:35:22,414 - INFO - Processing 25/58: notebooks/02_statistical_diagnostics.ipynb
+2025-09-23 04:35:22,415 - INFO - Processing 26/58: notebooks/03_cross_country_validation.ipynb
+2025-09-23 04:35:22,416 - INFO - Processing 27/58: notebooks/Iusmorfos_Cloud_Analysis.ipynb
+2025-09-23 04:35:22,416 - INFO - Processing 28/58: notebooks/Iusmorfos_Complete_Analysis.ipynb
+2025-09-23 04:35:22,417 - INFO - Processing 29/58: paper/paper_biomorfos_legales_final.md
+2025-09-23 04:35:22,417 - INFO - Processing 30/58: requirements.lock
+2025-09-23 04:35:22,418 - INFO - Processing 31/58: requirements.txt
+2025-09-23 04:35:22,418 - INFO - Processing 32/58: results/biomorfos_legales_evolución.png
+2025-09-23 04:35:22,420 - INFO - Processing 33/58: results/biomorfos_mejorado_20250921_054427.json
+2025-09-23 04:35:22,421 - INFO - Processing 34/58: results/validacion_piloto_20250921_054102.json
+2025-09-23 04:35:22,421 - INFO - Processing 35/58: ro-crate-metadata.json
+2025-09-23 04:35:22,421 - INFO - Processing 36/58: scripts/generate_checksums.py
+2025-09-23 04:35:22,422 - INFO - Processing 37/58: scripts/generate_doi.py
+2025-09-23 04:35:22,422 - INFO - Processing 38/58: scripts/process_raw_data.py
+2025-09-23 04:35:22,423 - INFO - Processing 39/58: scripts/setup_gpg.py
+2025-09-23 04:35:22,423 - INFO - Processing 40/58: security/INTEGRITY_REPORT.md
+2025-09-23 04:35:22,423 - INFO - Processing 41/58: security/security_config.yaml
+2025-09-23 04:35:22,424 - INFO - Processing 42/58: security/signatures/GPG_SETUP_INSTRUCTIONS.md
+2025-09-23 04:35:22,424 - INFO - Processing 43/58: security/zenodo/ZENODO_SUBMISSION_GUIDE.md
+2025-09-23 04:35:22,424 - INFO - Processing 44/58: security/zenodo/zenodo_metadata.json
+2025-09-23 04:35:22,424 - INFO - Processing 45/58: security/zenodo/zenodo_metadata.yaml
+2025-09-23 04:35:22,425 - INFO - Processing 46/58: security/zenodo_metadata.py
+2025-09-23 04:35:22,425 - INFO - Processing 47/58: src/baseline_models.py
+2025-09-23 04:35:22,426 - INFO - Processing 48/58: src/biomorfos_legales_dawkins.py
+2025-09-23 04:35:22,426 - INFO - Processing 49/58: src/biomorfos_legales_mejorado.py
+2025-09-23 04:35:22,426 - INFO - Processing 50/58: src/config.py
+2025-09-23 04:35:22,427 - INFO - Processing 51/58: src/diagnostics.py
+2025-09-23 04:35:22,427 - INFO - Processing 52/58: src/experimento_piloto_biomorfos.py
+2025-09-23 04:35:22,428 - INFO - Processing 53/58: src/external_validation.py
+2025-09-23 04:35:22,428 - INFO - Processing 54/58: src/robustness.py
+2025-09-23 04:35:22,429 - INFO - Processing 55/58: src/validacion_empirica_biomorfos.py
+2025-09-23 04:35:22,429 - INFO - Processing 56/58: src/visualizacion_jusmorfos.py
+2025-09-23 04:35:22,430 - INFO - Processing 57/58: streamlit_app.py
+2025-09-23 04:35:22,430 - INFO - Processing 58/58: tests/test_regression.py
+2025-09-23 04:35:22,430 - INFO - Checksum generation completed. 58 files processed.
+2025-09-23 04:35:22,432 - INFO - Checksums saved to checksums.json
+2025-09-23 04:35:22,432 - INFO - Human-readable checksums saved to checksums.txt
+2025-09-23 04:35:22,433 - INFO - Verification script generated: verify_integrity.sh
+2025-09-23 04:35:22,433 - INFO - ✅ Checksum generation completed successfully

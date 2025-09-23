@@ -1,0 +1,47 @@
+# Locked requirements for reproducible Iusmorfos environment
+# Generated on 2025-09-23 for Python 3.8+
+# This file ensures exact package versions for reproducibility
+
+# Core scientific computing
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.10.1
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# Machine learning and statistics
+scikit-learn==1.3.0
+statsmodels==0.14.0
+
+# Testing framework
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+
+# Configuration management
+pyyaml==6.0
+configparser==5.3.0
+
+# Data validation
+jsonschema==4.19.0
+cerberus==1.3.4
+
+# Reproducibility tools
+ipython==8.14.0
+jupyter==1.0.0
+notebook==7.0.0
+
+# Development tools
+black==23.7.0
+flake8==6.0.0
+isort==5.12.0
+
+# Optional: Enhanced statistical analysis
+bootstrapped==0.0.2
+powerlaw==1.5
+
+# Package information tools
+pip-tools==7.3.0

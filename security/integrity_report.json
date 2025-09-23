@@ -1,0 +1,414 @@
+{
+  "details": {
+    "CONTRIBUTING.md": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "Dockerfile": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "README.md": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "REPRODUCIBILITY.md": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "SECURITY.md": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "app/streamlit_app.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "config/config.yaml": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "config/doi_config.yaml": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "config/security_config.yaml": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "data/evolution_cases.csv": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "data/innovations_exported.csv": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "data/velocity_metrics.csv": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "notebooks/01_exploratory_data_analysis.ipynb": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "notebooks/02_external_validation_analysis.ipynb": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "notebooks/02_statistical_diagnostics.ipynb": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "notebooks/03_cross_country_validation.ipynb": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "notebooks/Iusmorfos_Cloud_Analysis.ipynb": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "notebooks/Iusmorfos_Complete_Analysis.ipynb": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "requirements.txt": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "ro-crate-metadata.json": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "scripts/generate_checksums.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "scripts/generate_doi.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "scripts/process_raw_data.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "scripts/setup_gpg.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "security/checksums.json": {
+      "algorithms": {
+        "blake2b": false,
+        "sha256": false,
+        "sha512": false
+      },
+      "message": "Checksum mismatch detected",
+      "passed": false,
+      "status": "FAILED"
+    },
+    "security/checksums.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "security/doi_generator.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "security/gpg_signing.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "security/zenodo_metadata.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/baseline_models.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/biomorfos_legales_dawkins.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/biomorfos_legales_mejorado.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/config.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/diagnostics.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/experimento_piloto_biomorfos.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/external_validation.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/robustness.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/validacion_empirica_biomorfos.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "src/visualizacion_jusmorfos.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    },
+    "tests/test_regression.py": {
+      "algorithms": {
+        "blake2b": true,
+        "sha256": true,
+        "sha512": true
+      },
+      "message": "All checksums match",
+      "passed": true,
+      "status": "PASSED"
+    }
+  },
+  "metadata": {
+    "generated": "2025-09-23T04:42:54.594692",
+    "repository": "/home/user/webapp/iusmorfos_public",
+    "total_files": 40
+  },
+  "summary": {
+    "failed": 1,
+    "passed": 39,
+    "success_rate": 97.5
+  }
+}

@@ -1,0 +1,14 @@
+2025-09-23 04:44:03,385 - INFO - Initialized DOI Generator for: /home/user/webapp/iusmorfos_public
+2025-09-23 04:44:03,385 - INFO - 📝 Generating DOI metadata for Iusmorfos framework...
+2025-09-23 04:44:03,386 - INFO - ✅ DataCite metadata saved to: /home/user/webapp/iusmorfos_public/security/doi_metadata.json
+2025-09-23 04:44:03,386 - INFO - ✅ Zenodo metadata saved to: /home/user/webapp/iusmorfos_public/security/zenodo_metadata.json
+2025-09-23 04:44:03,387 - INFO - ✅ DOI badges saved to: /home/user/webapp/iusmorfos_public/security/doi_badges.json
+2025-09-23 04:44:03,387 - INFO - ✅ DOI metadata generation completed successfully
+2025-09-23 04:44:03,387 - INFO - 📋 Next steps:
+2025-09-23 04:44:03,387 - INFO -    1. Review generated metadata files
+2025-09-23 04:44:03,387 - INFO -    2. Create GitHub release with proper tagging
+2025-09-23 04:44:03,387 - INFO -    3. Upload to Zenodo using zenodo_metadata.json
+2025-09-23 04:44:03,387 - INFO -    4. Update badges with actual DOI once published
+2025-09-23 04:44:09,264 - INFO - Initialized DOI Generator for: /home/user/webapp/iusmorfos_public
+2025-09-23 04:44:09,264 - INFO - 🔍 Validating DOI metadata...
+2025-09-23 04:44:09,264 - INFO - ✅ Metadata validation passed
