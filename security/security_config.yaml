@@ -1,0 +1,284 @@
+# Iusmorfos Framework Security Configuration
+# ==========================================
+# Comprehensive security settings for integrity verification,
+# digital signatures, and reproducibility validation.
+
+metadata:
+  version: "1.0.0"
+  created: "2024-09-23"
+  purpose: "Security and integrity configuration for Iusmorfos framework"
+  standards:
+    - "NIST Cybersecurity Framework"
+    - "FAIR Data Principles" 
+    - "FORCE11 Software Citation Principles"
+    - "ACM Artifact Review Guidelines"
+
+# Integrity Verification Settings
+integrity:
+  hash_algorithms:
+    primary: "sha256"      # Primary hash for quick verification
+    secondary: "sha512"    # Secondary hash for enhanced security
+    tertiary: "blake2b"    # Modern hash algorithm (RFC 7693)
+    legacy: "md5"          # For compatibility only (not recommended for security)
+  
+  verification_schedule:
+    automatic: true
+    frequency: "daily"
+    critical_files_only: false
+    
+  critical_file_patterns:
+    - "*.py"              # All Python source files
+    - "*.yml"             # YAML configuration files
+    - "*.yaml"            # YAML configuration files  
+    - "*.json"            # JSON data and config files
+    - "*.md"              # Documentation files
+    - "*.txt"             # Text files including requirements
+    - "*.csv"             # Data files
+    - "*.lock"            # Lock files for reproducibility
+    - "Dockerfile"        # Container configuration
+    - "requirements.*"    # Dependency specifications
+    
+  ignore_patterns:
+    - ".git/**"           # Git internal files
+    - "__pycache__/**"    # Python cache directories
+    - ".pytest_cache/**" # Pytest cache
+    - "node_modules/**"   # Node.js modules
+    - "logs/**"           # Log files
+    - "outputs/**"        # Generated outputs
+    - "results/**"        # Analysis results
+    - "*.log"             # Individual log files
+    - ".DS_Store"         # macOS system files
+    - "*.pyc"             # Compiled Python files
+    - "*.pyo"             # Optimized Python files
+
+# Digital Signature Settings
+digital_signatures:
+  enabled: true
+  gpg_settings:
+    key_type: "RSA"
+    key_size: 4096
+    key_expiration: "2y"        # 2 years
+    prefer_armor: true          # ASCII armor output
+    
+  signature_targets:
+    - "requirements.lock"       # Dependency lock file
+    - "config/config.yaml"      # Main configuration
+    - "security/checksums.json" # Checksums database
+    - "ro-crate-metadata.json" # Research Object metadata
+    
+  verification:
+    require_signatures: false   # Set to true for production
+    trust_model: "web"          # Web of trust model
+    signature_policy: "flexible" # flexible, strict, or advisory
+
+# Reproducibility Settings
+reproducibility:
+  enforcement_level: "strict"   # strict, moderate, or advisory
+  
+  requirements:
+    docker_containerization: true
+    dependency_locking: true
+    seed_determinism: true
+    environment_isolation: true
+    
+  validation_checks:
+    - "fixed_random_seeds"
+    - "locked_dependencies" 
+    - "docker_build_success"
+    - "test_reproducibility"
+    - "cross_platform_compatibility"
+    
+  reporting:
+    generate_reports: true
+    include_statistics: true
+    export_formats: ["json", "markdown", "html"]
+
+# Zenodo/DOI Configuration
+doi_preparation:
+  auto_generate_metadata: true
+  
+  required_fields:
+    - "title"
+    - "description" 
+    - "creators"
+    - "keywords"
+    - "license"
+    - "version"
+    
+  metadata_standards:
+    - "DataCite Metadata Schema"
+    - "Dublin Core"
+    - "Schema.org"
+    
+  validation_rules:
+    min_keywords: 5
+    min_description_length: 100
+    require_orcid: false        # Set to true when available
+    require_affiliation: false  # Set to true for institutional repos
+
+# Security Scanning Settings
+security_scanning:
+  enabled: true
+  
+  tools:
+    static_analysis:
+      - name: "bandit"
+        config: "security/bandit.yaml"
+        fail_on_high: true
+        
+    dependency_scanning:
+      - name: "safety"
+        check_vulnerabilities: true
+        
+    secret_detection:
+      - name: "detect-secrets"
+        scan_history: false
+        
+  scan_schedule:
+    on_push: true
+    on_pull_request: true
+    daily_scan: true
+    
+  reporting:
+    format: ["json", "sarif"]
+    store_results: true
+    retention_days: 90
+
+# Compliance and Standards
+compliance:
+  frameworks:
+    fair_data:
+      findable: true
+      accessible: true  
+      interoperable: true
+      reusable: true
+      
+    force11_software:
+      citation_file: "CITATION.cff"
+      software_heritage: false  # Future integration
+      
+    acm_artifact_review:
+      availability: "public"
+      functionality: "complete"
+      reusability: "high"
+      
+  documentation_requirements:
+    readme_comprehensive: true
+    api_documentation: true
+    installation_guide: true
+    usage_examples: true
+    troubleshooting: true
+    
+  testing_requirements:
+    unit_tests: true
+    integration_tests: true
+    regression_tests: true
+    performance_tests: false    # Optional for this framework
+    
+# Monitoring and Alerting
+monitoring:
+  enabled: true
+  
+  metrics:
+    - "integrity_check_success_rate"
+    - "test_coverage_percentage"
+    - "security_scan_results" 
+    - "reproducibility_validation_status"
+    
+  alerts:
+    integrity_failure: "high"
+    security_vulnerability: "critical"
+    test_failure: "medium"
+    
+  notification_channels:
+    - "github_issues"          # Create GitHub issues for critical alerts
+    - "workflow_annotations"    # Annotate workflow runs
+
+# Backup and Recovery
+backup:
+  enabled: true
+  
+  targets:
+    - "security/checksums.json"
+    - "security/zenodo/"
+    - "config/"
+    - "src/"
+    - "tests/"
+    - "docs/"
+    
+  schedule:
+    frequency: "weekly"
+    retention: "6_months"
+    
+  storage:
+    primary: "github_releases"
+    backup: "external_archive"   # Configure as needed
+
+# Performance Settings
+performance:
+  parallel_processing: true
+  max_workers: 4              # Adjust based on available resources
+  chunk_size: 1024            # For file processing
+  timeout_seconds: 300        # 5 minutes for long operations
+  
+  optimization:
+    cache_checksums: true
+    incremental_validation: true
+    skip_unchanged_files: true
+
+# Logging Configuration
+logging:
+  level: "INFO"               # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  handlers:
+    console: true
+    file: true
+    
+  file_settings:
+    path: "logs/security.log"
+    max_size: "10MB"
+    backup_count: 5
+    
+  audit_trail:
+    enabled: true
+    include_operations:
+      - "checksum_generation"
+      - "integrity_verification"
+      - "signature_creation"
+      - "metadata_updates"
+
+# Integration Settings
+integrations:
+  github_actions:
+    enabled: true
+    workflow_file: ".github/workflows/integrity_validation.yml"
+    
+  docker:
+    enabled: true
+    base_image: "python:3.11-slim"
+    security_scanning: true
+    
+  zenodo:
+    enabled: true
+    auto_submission: false      # Manual submission recommended
+    
+  external_validators:
+    enabled: false              # Future integrations
+    services: []
+
+# Development vs Production Settings
+environment_settings:
+  development:
+    strict_validation: false
+    allow_unsigned_commits: true
+    skip_expensive_checks: true
+    
+  production:
+    strict_validation: true
+    require_signed_commits: true  # When GPG is fully configured
+    full_security_scans: true
+    mandatory_reviews: true
+    
+  current_environment: "development"  # Change to production when ready

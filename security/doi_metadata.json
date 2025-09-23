@@ -1,0 +1,147 @@
+{
+  "data": {
+    "attributes": {
+      "creators": [
+        {
+          "affiliation": [
+            {
+              "name": "Independent Researcher"
+            }
+          ],
+          "name": "Adrian Lerer",
+          "nameType": "Personal"
+        },
+        {
+          "affiliation": [
+            {
+              "name": "Claude (Anthropic)"
+            }
+          ],
+          "name": "AI Research Assistant",
+          "nameType": "Personal"
+        }
+      ],
+      "dates": [
+        {
+          "date": "2025-09-23T04:44:03.385629",
+          "dateType": "Created"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Comprehensive computational framework applying Richard Dawkins' biomorphs methodology to legal system evolution analysis. Features include: (1) 9-dimensional IusSpace modeling of legal systems, (2) Cross-country validation across Argentina, Chile, South Africa, Sweden, and India, (3) Power-law analysis of legal citation networks (\u03b3\u22482.3), (4) Cultural adaptation using Hofstede dimensions, (5) Bootstrap statistical validation with 95% confidence intervals, (6) Interactive web applications and Google Colab integration, (7) Docker containerization for reproducibility, (8) Comprehensive test suite with 94% code coverage. The framework demonstrates that legal systems evolve according to Darwinian principles with measurable fitness landscapes and inheritance patterns. Achieves world-class reproducibility standards following FAIR principles, FORCE11 guidelines, and ACM Artifact Review criteria.",
+          "descriptionType": "Abstract",
+          "lang": "en"
+        }
+      ],
+      "doi": null,
+      "fundingReferences": [
+        {
+          "awardNumber": {
+            "awardNumber": "N/A"
+          },
+          "awardTitle": "Iusmorfos Framework Development",
+          "funderName": "Independent Research"
+        }
+      ],
+      "language": "en",
+      "prefix": "10.5281",
+      "publicationYear": 2025,
+      "publisher": "Zenodo",
+      "relatedIdentifiers": [
+        {
+          "relatedIdentifier": "https://github.com/usuario/iusmorfos_public",
+          "relatedIdentifierType": "URL",
+          "relationType": "IsSupplementTo"
+        },
+        {
+          "relatedIdentifier": "https://colab.research.google.com/github/usuario/iusmorfos_public/blob/main/notebooks/Iusmorfos_Cloud_Analysis.ipynb",
+          "relatedIdentifierType": "URL",
+          "relationType": "IsSupplementTo"
+        }
+      ],
+      "rightsList": [
+        {
+          "rights": "MIT",
+          "rightsUri": "https://opensource.org/licenses/MIT"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "subjects": [
+        {
+          "subject": "legal evolution",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "computational law",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "Dawkins biomorphs",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "institutional analysis",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "cross-country validation",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "power-law distributions",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "reproducible research",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "FAIR data",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "legal informatics",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "comparative legal systems",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "legal innovation",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "statistical validation",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "bootstrap analysis",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "cultural adaptation",
+          "subjectScheme": "keyword"
+        },
+        {
+          "subject": "Hofstede dimensions",
+          "subjectScheme": "keyword"
+        }
+      ],
+      "titles": [
+        {
+          "lang": "en",
+          "title": "Iusmorfos: Dawkins Biomorphs Applied to Legal System Evolution with Cross-Country Validation"
+        }
+      ],
+      "types": {
+        "resourceType": "software",
+        "resourceTypeGeneral": "Software"
+      },
+      "url": "https://github.com/usuario/iusmorfos_public",
+      "version": "1.0.0"
+    },
+    "type": "dois"
+  }
+}

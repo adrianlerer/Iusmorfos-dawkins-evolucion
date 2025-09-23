@@ -1,0 +1,247 @@
+# Security and Integrity Configuration for Iusmorfos
+# This file defines security policies, integrity requirements, and 
+# cryptographic standards for the reproducible research framework.
+
+security_policy:
+  version: "1.0.0"
+  last_updated: "2024-01-15"
+  
+  # Integrity verification requirements
+  integrity:
+    checksum_algorithms:
+      primary: "sha256"
+      secondary: ["md5", "sha512"]
+    
+    required_checksums:
+      - "src/**/*.py"
+      - "data/processed/*.csv"
+      - "notebooks/*.ipynb"
+      - "requirements.txt"
+      - "requirements.lock"
+      - "README.md"
+      - "REPRODUCIBILITY.md"
+    
+    verification_frequency:
+      automated: "on_commit"
+      manual: "weekly"
+      release: "mandatory"
+  
+  # GPG signing requirements  
+  gpg_signing:
+    enabled: true
+    
+    key_requirements:
+      algorithm: "RSA"
+      minimum_length: 2048
+      recommended_length: 4096
+      expiration: "2y"
+    
+    signing_policy:
+      commits: "recommended"
+      tags: "mandatory"
+      releases: "mandatory"
+      critical_files: "mandatory"
+    
+    verification_level:
+      minimum_trust: "marginal"
+      recommended_trust: "full"
+  
+  # Research data protection
+  data_protection:
+    anonymization:
+      required_for_human_subjects: true
+      techniques: ["k_anonymity", "differential_privacy"]
+    
+    access_control:
+      public_data: ["processed_datasets", "analysis_results"]
+      restricted_data: ["raw_personal_data", "proprietary_sources"]
+    
+    retention_policy:
+      raw_data: "10_years"
+      processed_data: "permanent"
+      analysis_cache: "1_year"
+
+# Reproducibility security measures
+reproducibility_security:
+  
+  # Dependency management
+  dependencies:
+    lock_files_required: true
+    vulnerability_scanning: true
+    
+    allowed_sources:
+      - "https://pypi.org"
+      - "https://conda-forge.org"
+      - "https://cran.r-project.org"
+    
+    security_updates:
+      frequency: "monthly"
+      critical_patches: "immediate"
+  
+  # Container security
+  container_security:
+    base_image_policy:
+      - "official_images_only"
+      - "regular_security_updates"
+      - "minimal_attack_surface"
+    
+    runtime_security:
+      - "no_privileged_containers"
+      - "read_only_root_filesystem"
+      - "resource_limits_enforced"
+  
+  # Code execution security
+  execution_environment:
+    sandboxing:
+      enabled: true
+      isolation_level: "process"
+    
+    resource_limits:
+      max_memory: "16GB"
+      max_cpu_time: "4h"
+      max_disk_space: "50GB"
+    
+    network_access:
+      outbound_allowed: ["https", "git+ssh"]
+      inbound_blocked: true
+
+# Compliance and standards
+compliance:
+  
+  # Research ethics
+  ethics:
+    irb_approval_required: false  # No human subjects in this research
+    data_usage_agreement: true
+    
+    ethical_guidelines:
+      - "ACM_Code_of_Ethics"
+      - "IEEE_Ethics"
+      - "Research_Integrity_Guidelines"
+  
+  # Data standards
+  data_standards:
+    fair_compliance:
+      findable: true
+      accessible: true
+      interoperable: true
+      reusable: true
+    
+    metadata_standards:
+      - "DataCite_v4.4"
+      - "Dublin_Core"
+      - "RO_Crate_1.1"
+    
+    format_requirements:
+      structured_data: ["CSV", "JSON", "Parquet"]
+      documentation: ["Markdown", "ReStructuredText"]
+      notebooks: ["Jupyter", "R_Markdown"]
+  
+  # Legal compliance
+  legal:
+    copyright:
+      license: "MIT"
+      attribution_required: true
+      derivative_works_allowed: true
+    
+    privacy:
+      gdpr_applicable: false  # No personal data processing
+      data_protection_measures: ["anonymization", "aggregation"]
+    
+    export_controls:
+      encryption_level: "standard"  # No high-grade cryptography
+      jurisdiction: "academic_research"
+
+# Security monitoring and incident response
+monitoring:
+  
+  # Automated security checks
+  automated_checks:
+    dependency_vulnerabilities:
+      enabled: true
+      tools: ["safety", "bandit", "semgrep"]
+      frequency: "daily"
+    
+    code_quality:
+      enabled: true
+      tools: ["pylint", "flake8", "mypy"]
+      minimum_score: 8.0
+    
+    license_compliance:
+      enabled: true
+      allowed_licenses: ["MIT", "Apache-2.0", "BSD-3-Clause", "GPL-3.0"]
+  
+  # Manual review requirements
+  manual_reviews:
+    code_changes:
+      required_reviewers: 1
+      security_focused: true
+    
+    data_updates:
+      required_approvals: 1
+      impact_assessment: true
+    
+    release_preparation:
+      security_checklist: true
+      penetration_testing: false  # Not applicable for research code
+
+# Incident response procedures
+incident_response:
+  
+  # Security incident classification
+  classification:
+    critical:
+      - "data_breach"
+      - "malicious_code_injection"
+      - "unauthorized_access_to_systems"
+    
+    high:
+      - "dependency_vulnerability"
+      - "integrity_verification_failure"
+      - "unauthorized_modification"
+    
+    medium:
+      - "configuration_drift"
+      - "expired_certificates"
+      - "outdated_dependencies"
+    
+    low:
+      - "documentation_inconsistency"
+      - "minor_configuration_issues"
+  
+  # Response procedures
+  response_procedures:
+    immediate_actions:
+      - "isolate_affected_systems"
+      - "assess_impact_scope"
+      - "notify_stakeholders"
+    
+    investigation_steps:
+      - "preserve_evidence"
+      - "analyze_root_cause"
+      - "document_findings"
+    
+    remediation:
+      - "implement_fixes"
+      - "verify_resolution"
+      - "update_security_measures"
+    
+    post_incident:
+      - "conduct_lessons_learned"
+      - "update_procedures"
+      - "communicate_outcomes"
+
+# Contact information for security issues
+security_contacts:
+  primary:
+    role: "Security Lead"
+    email: "security@iusmorfos.org"
+    pgp_key_id: "0x1234567890ABCDEF"
+  
+  escalation:
+    role: "Project Lead"
+    email: "lead@iusmorfos.org"
+    
+  external:
+    - name: "Institutional Security Office"
+      email: "security@institution.edu"
+      phone: "+1-555-123-4567"

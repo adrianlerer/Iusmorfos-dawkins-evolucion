@@ -1,0 +1,47 @@
+# Conda environment for Iusmorfos reproducibility
+# Alternative to Docker for conda users
+# Usage: conda env create -f environment.yml
+
+name: iusmorfos
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8.17
+  
+  # Core scientific computing
+  - numpy=1.24.3
+  - pandas=2.0.3
+  - scipy=1.10.1
+  
+  # Visualization
+  - matplotlib=3.7.2
+  - seaborn=0.12.2
+  - plotly=5.15.0
+  
+  # Machine learning
+  - scikit-learn=1.3.0
+  - statsmodels=0.14.0
+  
+  # Configuration and data
+  - pyyaml=6.0
+  - jsonschema=4.19.0
+  
+  # Development and testing
+  - pytest=7.4.0
+  - pytest-cov=4.1.0
+  - black=23.7.0
+  - flake8=6.0.0
+  
+  # Jupyter environment
+  - jupyter=1.0.0
+  - ipython=8.14.0
+  
+  # pip dependencies not available in conda
+  - pip
+  - pip:
+    - bootstrapped==0.0.2
+    - powerlaw==1.5
+    - cerberus==1.3.4
+    - pytest-mock==3.11.1

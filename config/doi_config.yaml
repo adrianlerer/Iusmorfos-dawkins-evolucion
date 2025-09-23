@@ -1,0 +1,38 @@
+project:
+  title: 'Iusmorfos: Dawkins Biomorphs Applied to Legal Systems'
+  description: A comprehensive framework for analyzing legal system evolution using
+    9-dimensional iuspace methodology and cross-country validation.
+  version: 1.0.0
+  repository_url: https://github.com/yourusername/iusmorfos_public
+  homepage: https://github.com/yourusername/iusmorfos_public
+  license: MIT
+  keywords:
+  - legal systems
+  - biomorphs
+  - computational law
+  - reproducible research
+  - power-law analysis
+  - cross-country validation
+  - legal evolution
+  - iuspace
+  - FAIR data
+authors:
+- name: Research Team
+  affiliation: Research Institution
+  orcid: 0000-0000-0000-0000
+  email: contact@example.org
+funding:
+- agency: Research Funding Agency
+  grant_number: GRANT-2024-001
+  program: Computational Social Science Initiative
+zenodo:
+  use_sandbox: true
+  access_token: null
+  communities:
+  - legal-tech
+  - computational-social-science
+datacite:
+  publisher: Zenodo
+  publication_year: 2025
+  resource_type: Software
+  language: en
