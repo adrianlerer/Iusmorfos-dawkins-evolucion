@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "description": "Cultural metrics for WEIRD vs No-WEIRD classification",
+    "version": "4.0",
+    "sources": [
+      "World Justice Project Rule of Law Index 2023",
+      "World Bank Governance Indicators 2022", 
+      "Hofstede Cultural Dimensions",
+      "Freedom House", 
+      "Polity IV"
+    ],
+    "last_updated": "2024-09-26"
+  },
+  
+  "india": {
+    "country_name": "India",
+    "iso_code": "IND",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.56,
+      "institutional_quality": -0.12,
+      "individualism_score": 48,
+      "historical_continuity": 76,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.65
+    },
+    "recent_reforms": ["GST_2017", "Farm_Laws_2020", "Labor_Code_2020"],
+    "validation_cases": [
+      {
+        "reform": "GST_2017",
+        "passage_success": 0.95,
+        "implementation_success": 0.65,
+        "gap": 0.30,
+        "description": "Constitutional passage successful, GSTN portal issues, compliance gaps systematic"
+      }
+    ]
+  },
+  
+  "germany": {
+    "country_name": "Germany",
+    "iso_code": "DEU", 
+    "cultural_metrics": {
+      "rule_of_law_index": 0.86,
+      "institutional_quality": 1.64,
+      "individualism_score": 67,
+      "historical_continuity": 74,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.25
+    },
+    "recent_reforms": ["Immigration_Reform_2016", "Digital_Services_Act_2021"],
+    "validation_cases": [
+      {
+        "reform": "Immigration_Reform_2016", 
+        "passage_success": 0.80,
+        "implementation_success": 0.78,
+        "gap": 0.02,
+        "description": "Federal-state coordination, high administrative capacity"
+      }
+    ]
+  },
+  
+  "argentina": {
+    "country_name": "Argentina",
+    "iso_code": "ARG",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.52,
+      "institutional_quality": -0.35,
+      "individualism_score": 46,
+      "historical_continuity": 40,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.70
+    },
+    "recent_reforms": ["Ley_Bases_2024", "Tax_Reform_Milei_2024"],
+    "validation_cases": [
+      {
+        "reform": "Ley_Bases_2024",
+        "passage_success": 0.70,
+        "implementation_success": 0.35,
+        "gap": 0.35,
+        "description": "Congressional negotiations, provincial resistance, union opposition"
+      }
+    ]
+  },
+  
+  "brasil": {
+    "country_name": "Brazil",
+    "iso_code": "BRA",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.59,
+      "institutional_quality": -0.18,
+      "individualism_score": 38,
+      "historical_continuity": 35,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.68
+    },
+    "recent_reforms": ["Labor_Reform_2017", "Teto_Gastos_2016"],
+    "validation_cases": []
+  },
+  
+  "colombia": {
+    "country_name": "Colombia", 
+    "iso_code": "COL",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.54,
+      "institutional_quality": -0.22,
+      "individualism_score": 13,
+      "historical_continuity": 25,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.75
+    },
+    "recent_reforms": ["Pension_Reform_Petro_2024", "Peace_Process_2016"],
+    "validation_cases": []
+  },
+  
+  "indonesia": {
+    "country_name": "Indonesia",
+    "iso_code": "IDN",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.61,
+      "institutional_quality": -0.08,
+      "individualism_score": 14,
+      "historical_continuity": 25,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.72
+    },
+    "recent_reforms": ["Omnibus_Tax_Reform_2021", "Job_Creation_Law_2020"],
+    "validation_cases": []
+  },
+  
+  "philippines": {
+    "country_name": "Philippines",
+    "iso_code": "PHL", 
+    "cultural_metrics": {
+      "rule_of_law_index": 0.48,
+      "institutional_quality": -0.31,
+      "individualism_score": 32,
+      "historical_continuity": 35,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.78
+    },
+    "recent_reforms": ["Bangsamoro_Organic_Law_2018", "Tax_Reform_2017"],
+    "validation_cases": []
+  },
+  
+  "thailand": {
+    "country_name": "Thailand",
+    "iso_code": "THA",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.62,
+      "institutional_quality": 0.15,
+      "individualism_score": 20,
+      "historical_continuity": 90,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.65
+    },
+    "recent_reforms": ["Constitution_2017", "Digital_Economy_2019"],
+    "validation_cases": []
+  },
+  
+  "south_africa": {
+    "country_name": "South Africa",
+    "iso_code": "ZAF",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.64,
+      "institutional_quality": 0.12,
+      "individualism_score": 65,
+      "historical_continuity": 29,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.60
+    },
+    "recent_reforms": ["Land_Reform_Amendment_2022", "NHI_Bill_2023"],
+    "validation_cases": []
+  },
+  
+  "nigeria": {
+    "country_name": "Nigeria",
+    "iso_code": "NGA",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.42,
+      "institutional_quality": -0.89,
+      "individualism_score": 30,
+      "historical_continuity": 24,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.85
+    },
+    "recent_reforms": ["Petroleum_Industry_Act_2020", "Electoral_Reform_2022"],
+    "validation_cases": []
+  },
+  
+  "kenya": {
+    "country_name": "Kenya",
+    "iso_code": "KEN",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.55,
+      "institutional_quality": -0.45,
+      "individualism_score": 25,
+      "historical_continuity": 61,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.75
+    },
+    "recent_reforms": ["Universal_Health_Coverage_2018", "Digital_Tax_2021"],
+    "validation_cases": []
+  },
+  
+  "turkey": {
+    "country_name": "Turkey",
+    "iso_code": "TUR",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.47,
+      "institutional_quality": 0.28,
+      "individualism_score": 37,
+      "historical_continuity": 98,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.55
+    },
+    "recent_reforms": ["Judicial_Reform_2017", "Presidential_System_2017"],
+    "validation_cases": []
+  },
+  
+  "egypt": {
+    "country_name": "Egypt",
+    "iso_code": "EGY",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.38,
+      "institutional_quality": -0.51,
+      "individualism_score": 25,
+      "historical_continuity": 70,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.80
+    },
+    "recent_reforms": ["Investment_Law_2018", "Administrative_Capital_2015"],
+    "validation_cases": []
+  },
+  
+  "france": {
+    "country_name": "France",
+    "iso_code": "FRA",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.78,
+      "institutional_quality": 1.32,
+      "individualism_score": 71,
+      "historical_continuity": 65,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.35
+    },
+    "recent_reforms": ["Labor_Code_Reform_2017", "Pension_Reform_2020"],
+    "validation_cases": []
+  },
+  
+  "uk": {
+    "country_name": "United Kingdom",
+    "iso_code": "GBR",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.80,
+      "institutional_quality": 1.28,
+      "individualism_score": 89,
+      "historical_continuity": 357,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.28
+    },
+    "recent_reforms": ["Brexit_Implementation_2019", "Online_Safety_Act_2023"],
+    "validation_cases": []
+  },
+  
+  "canada": {
+    "country_name": "Canada", 
+    "iso_code": "CAN",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.82,
+      "institutional_quality": 1.56,
+      "individualism_score": 80,
+      "historical_continuity": 157,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.22
+    },
+    "recent_reforms": ["Cannabis_Legalization_2018", "Digital_Services_Tax_2021"],
+    "validation_cases": []
+  },
+  
+  "australia": {
+    "country_name": "Australia",
+    "iso_code": "AUS",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.81,
+      "institutional_quality": 1.61,
+      "individualism_score": 90,
+      "historical_continuity": 123,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.24
+    },
+    "recent_reforms": ["Banking_Reform_2019", "Digital_Platform_Services_2021"],
+    "validation_cases": []
+  },
+  
+  "japan": {
+    "country_name": "Japan",
+    "iso_code": "JPN",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.79,
+      "institutional_quality": 1.43,
+      "individualism_score": 46,
+      "historical_continuity": 76,
+      "colonial_legacy": false,
+      "informal_institutions_strength": 0.45
+    },
+    "recent_reforms": ["Work_Style_Reform_2018", "Digital_Transformation_2020"],
+    "validation_cases": []
+  },
+  
+  "south_korea": {
+    "country_name": "South Korea",
+    "iso_code": "KOR",
+    "cultural_metrics": {
+      "rule_of_law_index": 0.74,
+      "institutional_quality": 1.25,
+      "individualism_score": 18,
+      "historical_continuity": 35,
+      "colonial_legacy": true,
+      "informal_institutions_strength": 0.50
+    },
+    "recent_reforms": ["Labor_Reform_2018", "Green_New_Deal_2020"],
+    "validation_cases": []
+  }
+}
