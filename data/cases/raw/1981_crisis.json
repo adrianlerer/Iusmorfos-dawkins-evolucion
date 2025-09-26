@@ -1,0 +1,25 @@
+{
+  "case": "1981_crisis",
+  "description": "Military crisis and institutional breakdown",
+  "year": 1981,
+  "type": "institutional_crisis",
+  "historical_context": "Economic crisis leading to military government transition and constitutional emergency measures",
+  "coder_A": [5, 5, 4, 3, 5, 5, 4, 3, 5],
+  "coder_B": [5, 5, 4, 3, 5, 5, 4, 3, 5],
+  "coding_notes": {
+    "D1_separation_powers": "High executive dominance during crisis",
+    "D2_federalism": "Strong federal control during emergency",
+    "D3_individual_rights": "Moderate restrictions during transition",
+    "D4_judicial_review": "Limited judicial oversight",
+    "D5_executive_power": "Maximum emergency powers",
+    "D6_legislative_scope": "Legislature under military influence",
+    "D7_amendment_flexibility": "No formal amendments during crisis",
+    "D8_interstate_commerce": "Limited by economic crisis",
+    "D9_constitutional_supremacy": "Constitutional order under stress"
+  },
+  "sources": [
+    "La Nación, 25 December 1981",
+    "Military Government Records 1981",
+    "Constitutional Crisis Archive"
+  ]
+}

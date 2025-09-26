@@ -1,36 +1,28 @@
-# Iusmorfos: Dawkins Evolution Applied to Legal Systems
-# Requirements file for complete replication
+# Iusmorfos: Dawkinsian Evolutionary Framework for Constitutional Analysis
+# Minimal requirements for qualitative coding and validation (v2.0 reformulated)
 
 # Core scientific computing
 numpy>=1.21.0
 pandas>=1.3.0
 scipy>=1.7.0
 
-# Machine learning and analysis
+# Essential ML for inter-coder reliability (Cohen's kappa)
 scikit-learn>=1.0.0
 
-# Visualization
+# Basic visualization
 matplotlib>=3.4.0
 seaborn>=0.11.0
 
-# Data handling and I/O
-json5>=0.9.0
-
-# Optional: Enhanced visualizations
-plotly>=5.0.0
-
-# Optional: Jupyter notebook support
-jupyter>=1.0.0
-ipykernel>=6.0.0
-
-# Development and testing (optional)
+# Testing framework
 pytest>=6.0.0
-pytest-cov>=2.12.0
 
-# Code quality (optional)  
-black>=21.0.0
-flake8>=3.9.0
+# Optional: Enhanced analysis
+# Uncomment if needed for extended functionality
+# plotly>=5.0.0
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
 
-# Documentation (optional)
-sphinx>=4.0.0
-sphinx-rtd-theme>=0.5.0
+# Optional: Development tools
+# pytest-cov>=2.12.0
+# black>=21.0.0
+# flake8>=3.9.0

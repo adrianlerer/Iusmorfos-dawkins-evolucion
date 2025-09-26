@@ -1,7 +1,7 @@
 
 # ANÁLISIS CONSTITUCIONAL IUSMORFOS
 ## Framework de Análisis: Derecho como Fenotipo Extendido
-**Fecha de Análisis:** 2025-09-26 14:52:24
+**Fecha de Análisis:** 2025-09-26 14:52:09
 **Metodología:** Iusmorfos + Reality Filter + Validación Bootstrap
 
 ---
@@ -38,14 +38,14 @@
 
 ### Genotipo Post-Postulado (Nueva Interpretación)
 
-- **Separación de Poderes:** 0.903
-- **Fortaleza Federalismo:** 0.431
-- **Derechos Individuales:** 0.842
-- **Revisión Judicial:** 0.966
-- **Poder Ejecutivo:** 0.520
-- **Alcance Legislativo:** 0.502
-- **Flexibilidad Enmiendas:** -0.339
-- **Comercio Interestatal:** 0.488
+- **Separación de Poderes:** 0.942
+- **Fortaleza Federalismo:** 0.565
+- **Derechos Individuales:** 0.826
+- **Revisión Judicial:** 0.920
+- **Poder Ejecutivo:** 0.451
+- **Alcance Legislativo:** 0.582
+- **Flexibilidad Enmiendas:** -0.307
+- **Comercio Interestatal:** 0.464
 - **Supremacía Constitucional:** 0.914
 
 ---
@@ -56,17 +56,17 @@
 
 **Deriva Genética:**
 - Tasa promedio de deriva: 0.0001
-- Componente direccional: 0.0156
-- Componente aleatorio: -0.0155
+- Componente direccional: 0.0119
+- Componente aleatorio: -0.0118
 
 **Selección Direccional:**
-- Fuerza de selección neta: 0.0170
+- Fuerza de selección neta: 0.0130
 - Tendencias significativas: 9
 
 **Landscape de Fitness:**
-- Rugosidad del landscape: 0.2468
-- Máximos locales detectados: 1
-- Mínimos locales detectados: 1
+- Rugosidad del landscape: 0.2410
+- Máximos locales detectados: 2
+- Mínimos locales detectados: 2
 
 ---
 
@@ -75,16 +75,16 @@
 ### Impacto Institucional
 
 **Cambios en Capacidades Institucionales:**
-- Δ Estabilidad Institucional: 0.0194
-- Δ Capacidad Adaptativa: 0.0631
-- Δ Responsividad Democrática: -0.0074
-- Δ Alcance Fenotipo Extendido: 0.0491
+- Δ Estabilidad Institucional: 0.0440
+- Δ Capacidad Adaptativa: 0.0448
+- Δ Responsividad Democrática: 0.0604
+- Δ Alcance Fenotipo Extendido: 0.0546
 
 ### Estructura de Red de Precedentes
 
 - Δ Coeficiente de clustering: 0.0056
-- Δ Longitud de camino promedio: -0.1135
-- Δ Exponente power-law (γ): 0.1955
+- Δ Longitud de camino promedio: -0.1010
+- Δ Exponente power-law (γ): -0.0376
 
 ---
 
@@ -93,8 +93,8 @@
 ### Análisis Bootstrap (n=500)
 
 **Intervalos de Confianza (95%):**
-- Fitness: [0.4152, 0.7766]
-- Diversidad Genética: [0.0042, 0.0268]
+- Fitness: [0.3715, 0.7440]
+- Diversidad Genética: [0.0029, 0.0168]
 
 ### Reality Filter
 
@@ -119,13 +119,13 @@
 ### Implicaciones Evolutivas
 
 - **Dirección Evolutiva:** regressive
-- **Potencial Adaptativo:** 0.738
+- **Potencial Adaptativo:** 0.720
 - **Viabilidad a Largo Plazo:** high
 
 ### Teoría del Fenotipo Extendido Aplicada
 
-- **Modificación Institucional:** 0.0194
-- **Expansión Impacto Social:** 0.0491
+- **Modificación Institucional:** 0.0440
+- **Expansión Impacto Social:** 0.0546
 - **Remodelación Ambiental:** El postulado modifica el ambiente jurídico-institucional
 
 ---

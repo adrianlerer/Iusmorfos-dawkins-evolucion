@@ -1,0 +1,25 @@
+{
+  "case": "1994_reform",
+  "description": "Constitutional reform process",
+  "year": 1994,
+  "type": "formal_amendment",
+  "historical_context": "Democratic constitutional reform expanding presidential terms and adding new rights",
+  "coder_A": [3, 4, 5, 4, 3, 4, 5, 4, 4],
+  "coder_B": [3, 4, 5, 4, 3, 4, 5, 4, 4],
+  "coding_notes": {
+    "D1_separation_powers": "Moderate balance with new checks",
+    "D2_federalism": "Moderate federal-provincial balance",
+    "D3_individual_rights": "Significant expansion of rights",
+    "D4_judicial_review": "Moderate judicial powers maintained",
+    "D5_executive_power": "Controlled expansion with limits",
+    "D6_legislative_scope": "Moderate legislative authority",
+    "D7_amendment_flexibility": "Formal constitutional process used",
+    "D8_interstate_commerce": "Moderate commercial integration",
+    "D9_constitutional_supremacy": "Strong constitutional hierarchy"
+  },
+  "sources": [
+    "Boletín Oficial, 1 August 1994",
+    "Constitutional Convention Records 1994",
+    "Official Reform Documentation"
+  ]
+}
