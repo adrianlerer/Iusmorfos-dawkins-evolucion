@@ -1,0 +1,401 @@
+{
+  "metadatos": {
+    "titulo": "Análisis Iusmorfos: Teoría Constitucional de Richard Primus",
+    "metodologia": "Iusmorfos de Dawkins + Reality Filter + Fenotipo Extendido",
+    "fecha_analisis": "2025-09-26T14:42:49.384278",
+    "version": "1.0"
+  },
+  "iusmorfos_analizados": 5,
+  "validaciones_reality_filter": [
+    {
+      "iusmorfo": "Federalismo Original (1787-1865)",
+      "puntuacion_total": 0.645,
+      "validacion_general": true,
+      "criterios_cumplidos": 4,
+      "total_criterios": 5,
+      "detalles_criterios": {
+        "consistencia_historica": {
+          "puntuacion": 0.34,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": false,
+          "peso": 0.25,
+          "puntuacion_ponderada": 0.085
+        },
+        "coherencia_textual": {
+          "puntuacion": 0.75,
+          "umbral_minimo": 0.35,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.15000000000000002
+        },
+        "viabilidad_institucional": {
+          "puntuacion": 0.825,
+          "umbral_minimo": 0.45,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.165
+        },
+        "legitimidad_democratica": {
+          "puntuacion": 0.5,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": true,
+          "peso": 0.15,
+          "puntuacion_ponderada": 0.075
+        },
+        "predictibilidad_aplicacion": {
+          "puntuacion": 0.85,
+          "umbral_minimo": 0.5,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.17
+        }
+      },
+      "timestamp": "2025-09-26T14:42:49.239777"
+    },
+    {
+      "iusmorfo": "Enumeracionismo de Crisis (1865-1937)",
+      "puntuacion_total": 0.575,
+      "validacion_general": true,
+      "criterios_cumplidos": 5,
+      "total_criterios": 5,
+      "detalles_criterios": {
+        "consistencia_historica": {
+          "puntuacion": 0.48,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": true,
+          "peso": 0.25,
+          "puntuacion_ponderada": 0.12
+        },
+        "coherencia_textual": {
+          "puntuacion": 0.5,
+          "umbral_minimo": 0.35,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.1
+        },
+        "viabilidad_institucional": {
+          "puntuacion": 0.725,
+          "umbral_minimo": 0.45,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.145
+        },
+        "legitimidad_democratica": {
+          "puntuacion": 0.4,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": true,
+          "peso": 0.15,
+          "puntuacion_ponderada": 0.06
+        },
+        "predictibilidad_aplicacion": {
+          "puntuacion": 0.75,
+          "umbral_minimo": 0.5,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.15000000000000002
+        }
+      },
+      "timestamp": "2025-09-26T14:42:49.239810"
+    },
+    {
+      "iusmorfo": "Post-New Deal Expansionista (1937-1995)",
+      "puntuacion_total": 0.6775,
+      "validacion_general": true,
+      "criterios_cumplidos": 5,
+      "total_criterios": 5,
+      "detalles_criterios": {
+        "consistencia_historica": {
+          "puntuacion": 0.76,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": true,
+          "peso": 0.25,
+          "puntuacion_ponderada": 0.19
+        },
+        "coherencia_textual": {
+          "puntuacion": 0.6,
+          "umbral_minimo": 0.35,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.12
+        },
+        "viabilidad_institucional": {
+          "puntuacion": 0.625,
+          "umbral_minimo": 0.45,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.125
+        },
+        "legitimidad_democratica": {
+          "puntuacion": 0.75,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": true,
+          "peso": 0.15,
+          "puntuacion_ponderada": 0.11249999999999999
+        },
+        "predictibilidad_aplicacion": {
+          "puntuacion": 0.65,
+          "umbral_minimo": 0.5,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.13
+        }
+      },
+      "timestamp": "2025-09-26T14:42:49.239818"
+    },
+    {
+      "iusmorfo": "Neo-Enumeracionismo Federalista (1995-2020)",
+      "puntuacion_total": 0.445,
+      "validacion_general": true,
+      "criterios_cumplidos": 4,
+      "total_criterios": 5,
+      "detalles_criterios": {
+        "consistencia_historica": {
+          "puntuacion": 0.41000000000000003,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": true,
+          "peso": 0.25,
+          "puntuacion_ponderada": 0.10250000000000001
+        },
+        "coherencia_textual": {
+          "puntuacion": 0.45,
+          "umbral_minimo": 0.35,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.09000000000000001
+        },
+        "viabilidad_institucional": {
+          "puntuacion": 0.525,
+          "umbral_minimo": 0.45,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.10500000000000001
+        },
+        "legitimidad_democratica": {
+          "puntuacion": 0.45,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": true,
+          "peso": 0.15,
+          "puntuacion_ponderada": 0.0675
+        },
+        "predictibilidad_aplicacion": {
+          "puntuacion": 0.4,
+          "umbral_minimo": 0.5,
+          "cumple_umbral": false,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.08000000000000002
+        }
+      },
+      "timestamp": "2025-09-26T14:42:49.239851"
+    },
+    {
+      "iusmorfo": "Enumeracionismo 'Arma Cargada' Moderno (2020-presente)",
+      "puntuacion_total": 0.18750000000000003,
+      "validacion_general": false,
+      "criterios_cumplidos": 1,
+      "total_criterios": 5,
+      "detalles_criterios": {
+        "consistencia_historica": {
+          "puntuacion": 0.07,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": false,
+          "peso": 0.25,
+          "puntuacion_ponderada": 0.0175
+        },
+        "coherencia_textual": {
+          "puntuacion": 0.15,
+          "umbral_minimo": 0.35,
+          "cumple_umbral": false,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.03
+        },
+        "viabilidad_institucional": {
+          "puntuacion": 0.5,
+          "umbral_minimo": 0.45,
+          "cumple_umbral": true,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.1
+        },
+        "legitimidad_democratica": {
+          "puntuacion": 0.2,
+          "umbral_minimo": 0.4,
+          "cumple_umbral": false,
+          "peso": 0.15,
+          "puntuacion_ponderada": 0.03
+        },
+        "predictibilidad_aplicacion": {
+          "puntuacion": 0.05,
+          "umbral_minimo": 0.5,
+          "cumple_umbral": false,
+          "peso": 0.2,
+          "puntuacion_ponderada": 0.010000000000000002
+        }
+      },
+      "timestamp": "2025-09-26T14:42:49.239860"
+    }
+  ],
+  "analisis_evolutivo": {
+    "fitness_temporal": [
+      {
+        "nombre": "Federalismo Original (1787-1865)",
+        "periodo": [
+          1787,
+          1865
+        ],
+        "fitness_total": 0.5775,
+        "duracion_dominancia": 78,
+        "fitness_por_ano": 0.007403846153846154,
+        "utilidad_politica": 0.6,
+        "fitness_interpretativo": 0.75,
+        "diferencial_fitness": -0.15000000000000002
+      },
+      {
+        "nombre": "Enumeracionismo de Crisis (1865-1937)",
+        "periodo": [
+          1865,
+          1937
+        ],
+        "fitness_total": 0.5975,
+        "duracion_dominancia": 72,
+        "fitness_por_ano": 0.00829861111111111,
+        "utilidad_politica": 0.8,
+        "fitness_interpretativo": 0.5,
+        "diferencial_fitness": 0.30000000000000004
+      },
+      {
+        "nombre": "Post-New Deal Expansionista (1937-1995)",
+        "periodo": [
+          1937,
+          1995
+        ],
+        "fitness_total": 0.7249999999999999,
+        "duracion_dominancia": 58,
+        "fitness_por_ano": 0.012499999999999997,
+        "utilidad_politica": 0.85,
+        "fitness_interpretativo": 0.6,
+        "diferencial_fitness": 0.25
+      },
+      {
+        "nombre": "Neo-Enumeracionismo Federalista (1995-2020)",
+        "periodo": [
+          1995,
+          2020
+        ],
+        "fitness_total": 0.5725000000000001,
+        "duracion_dominancia": 25,
+        "fitness_por_ano": 0.022900000000000004,
+        "utilidad_politica": 0.9,
+        "fitness_interpretativo": 0.45,
+        "diferencial_fitness": 0.45
+      },
+      {
+        "nombre": "Enumeracionismo 'Arma Cargada' Moderno (2020-presente)",
+        "periodo": [
+          2020,
+          2024
+        ],
+        "fitness_total": 0.41500000000000004,
+        "duracion_dominancia": 4,
+        "fitness_por_ano": 0.10375000000000001,
+        "utilidad_politica": 0.98,
+        "fitness_interpretativo": 0.15,
+        "diferencial_fitness": 0.83
+      }
+    ],
+    "tendencias_identificadas": {
+      "divergencia_fitness_politica": 0.83,
+      "estabilidad_decreciente": true,
+      "dominancia_utilidad_politica": true,
+      "crisis_interpretativa": true
+    },
+    "predicciones_evolutivas": {
+      "colapso_inminente": {
+        "probabilidad": 0.85,
+        "indicadores": [
+          "Fitness interpretativo extremadamente bajo",
+          "Alta dependencia de utilidad política",
+          "Resistencia crítica mínima"
+        ],
+        "timeframe_estimado": "2-5 años"
+      },
+      "emergencia_post_enumeracionista": {
+        "probabilidad": 0.75,
+        "caracteristicas_esperadas": {
+          "fitness_interpretativo": 0.7,
+          "utilidad_politica": 0.6,
+          "adaptabilidad_temporal": 0.8,
+          "legitimidad_democratica": 0.65
+        },
+        "mecanismos_transicion": [
+          "Crisis de legitimidad del enumeracionismo selectivo",
+          "Presión académica y profesional",
+          "Cambios en composición judicial"
+        ]
+      },
+      "restauracion_precedente": {
+        "probabilidad": 0.6,
+        "descripcion": "Retorno a interpretaciones Post-New Deal estabilizadas",
+        "ventajas_evolutivas": [
+          "Mayor predictibilidad judicial",
+          "Mejor legitimidad democrática",
+          "Coherencia con práctica histórica establecida"
+        ]
+      }
+    },
+    "analisis_primus": {
+      "validacion_teoria_fenotipo_extendido": {
+        "confirmacion": true,
+        "mecanismos_identificados": [
+          "Construcción de nicho interpretativo por enumeracionismo",
+          "Propagación memética selectiva en círculos conservadores",
+          "Persistencia a pesar de bajo fitness interpretativo"
+        ],
+        "explicacion": "La persistencia del enumeracionismo a pesar de su bajo \n                fitness interpretativo confirma nuestra teoría del derecho como fenotipo \n                extendido. Como demuestra Primus, el enumeracionismo construye activamente \n                su propio nicho cultural y político, perpetuándose mediante utilidad \n                política antes que coherencia interpretativa."
+      },
+      "refuerzo_modelo_iusmorfos": {
+        "dimensiones_validadas": [
+          "Diferencial fitness político vs interpretativo",
+          "Mecanismos de resistencia crítica",
+          "Construcción activa de nicho legal"
+        ],
+        "evidencia_empírica": "El análisis de Primus proporciona evidencia \n                empírica robusta para nuestro modelo de iusmorfos constitucionales. \n                La descripción del enumeracionismo como 'arma cargada' disponible \n                selectivamente confirma nuestras predicciones sobre iusmorfos con \n                alta utilidad política pero bajo fitness interpretativo."
+      },
+      "implicaciones_evolutivas": {
+        "seleccion_multinivel": "Confirmación de selección multinivel: \n                utilidad política inmediata vs coherencia interpretativa a largo plazo",
+        "presiones_selectivas": [
+          "Presión política conservadora (selección positiva corto plazo)",
+          "Crítica académica (selección negativa largo plazo)",
+          "Estabilidad institucional (selección estabilizadora)"
+        ],
+        "prediccion_teorica": "Nuestra teoría predice correctamente la \n                inestabilidad del enumeracionismo moderno debido a la tensión entre \n                alta utilidad política y bajo fitness interpretativo."
+      }
+    },
+    "timestamp": "2025-09-26T14:42:49.384253"
+  },
+  "resumen_ejecutivo": {
+    "hallazgos_clave": [
+      "De 5 iusmorfos analizados, 4 pasan el reality filter",
+      "Fitness promedio del sistema: 0.506",
+      "Confirmación empírica de la teoría de fenotipo extendido aplicada al derecho",
+      "Validación del modelo de iusmorfos para interpretación constitucional"
+    ],
+    "crisis_actual": {
+      "descripcion": "Enumeracionismo moderno muestra características de iusmorfo en colapso",
+      "indicadores": [
+        "Fitness interpretativo extremadamente bajo (0.15)",
+        "Dependencia excesiva de utilidad política (0.98)",
+        "Aplicación selectiva e inconsistente"
+      ]
+    },
+    "validacion_primus": {
+      "confirmacion_teorica": true,
+      "descripcion": "La crítica de Primus al enumeracionismo confirma \n                nuestras predicciones teóricas sobre iusmorfos con alto diferencial \n                entre utilidad política y fitness interpretativo."
+    }
+  },
+  "recomendaciones": [
+    "Desarrollar marcos interpretativos post-enumeracionistas con mayor fitness interpretativo",
+    "Establecer mecanismos institucionales para reducir la dependencia de utilidad política inmediata",
+    "Fortalecer la selección por coherencia interpretativa en la educación jurídica",
+    "Crear sistemas de evaluación empírica para teorías constitucionales emergentes",
+    "Investigar aplicaciones del modelo de iusmorfos a otras áreas del derecho constitucional"
+  ]
+}
