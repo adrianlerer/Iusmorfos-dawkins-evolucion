@@ -12,7 +12,7 @@ Date: September 2024
 
 Key Concepts:
 - Continuous accuracy tracking and validation
-- Statistical significance testing (p < 0.0001)
+- Statistical significance testing (p = 0.03)
 - Inter-coder reliability using Cohen's kappa
 - Bootstrap validation with confidence intervals
 - Reality filter calibration and performance monitoring
@@ -163,7 +163,7 @@ class ValidationTracker:
         
         Args:
             framework_version: Version of framework being validated
-            significance_threshold: Statistical significance threshold (default p < 0.0001)
+            significance_threshold: Statistical significance threshold (default p = 0.03)
             min_sample_size: Minimum cases needed for statistical analysis
             bootstrap_samples: Number of bootstrap samples for confidence intervals
         """

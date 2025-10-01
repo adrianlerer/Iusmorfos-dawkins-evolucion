@@ -792,7 +792,7 @@ class IusmorfosVisualizer:
         method_text += f"\nStatistical Standards:\n"
         if 'statistical_standards' in methodology:
             standards = methodology['statistical_standards']
-            method_text += f"• Significance: {standards.get('significance_threshold', 'p < 0.0001')}\n"
+            method_text += f"• Significance: {standards.get('significance_threshold', 'p = 0.03')}\n"
             method_text += f"• Min. samples: {standards.get('minimum_sample_size', 10)}\n"
             
         ax10.text(0.05, 0.95, method_text, transform=ax10.transAxes,

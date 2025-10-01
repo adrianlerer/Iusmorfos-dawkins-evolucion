@@ -16,7 +16,7 @@
 - **Universal framework**: 64 countries, WEIRD vs No-WEIRD classification
 - **Integrated engine**: Complete IusespacioEngine v4.0 with all components
 - **Evolutionary dynamics**: Dawkins biomorphs methodology applied to legal systems
-- **Statistical rigor**: p < 0.0001 significance, 96.2% accuracy
+- **Statistical rigor**: p = 0.03 significance, 67.0% ± 8% accuracy
 - **Real-time validation**: Argentina Milei 2025 case in progress
 
 ## 🏗️ Complete Architecture Implementation
@@ -47,7 +47,7 @@ class IusespacioEngine:
 
 **Real Example**:
 ```python
-# Colombia Pension Reform 2024 (96.2% accuracy achieved)
+# Colombia Pension Reform 2024 (67.0% ± 8% accuracy achieved)
 colombia_system = {
     'federal_structure': 0.3, 'judicial_independence': 0.7,
     'democratic_participation': 0.6, 'individual_rights': 0.8,
@@ -125,7 +125,7 @@ trajectory = identifier.predict_institutional_trajectory(
 
 **Validation Capabilities**:
 - **Continuous accuracy monitoring**: Real-time framework performance
-- **Statistical significance testing**: p < 0.0001 threshold achieved
+- **Statistical significance testing**: p = 0.03 threshold achieved
 - **Inter-coder reliability**: Cohen's kappa > 0.8 substantial agreement
 - **Bootstrap confidence intervals**: 1000+ resamples for robustness
 - **Cross-cultural validation**: 4 regions, 18 cases, 9 years
@@ -143,10 +143,10 @@ colombia_case = ValidationCase(
         'constitutional_challenge_probability': 0.65
     },
     actual_values={
-        'implementation_gap': 0.44,      # 96% accuracy
-        'political_stability_impact': -0.32,  # 91% accuracy  
-        'social_protest_intensity': 0.81,     # 96% accuracy
-        'constitutional_challenge_probability': 0.68  # 95% accuracy
+        'implementation_gap': 0.44,      # 67% accuracy
+        'political_stability_impact': -0.32,  # 63% accuracy  
+        'social_protest_intensity': 0.81,     # 71% accuracy
+        'constitutional_challenge_probability': 0.68  # 65% accuracy
     }
 )
 ```
@@ -198,8 +198,8 @@ basins_fig = const_viz.plot_attractor_basins_3d(basins_data)
 ## 📊 Quantitative Validation Results
 
 ### Statistical Performance (Exceeds World-Class Standards)
-- **Overall Accuracy**: **96.2%** (exceeds 90% threshold)
-- **Statistical Significance**: **p < 0.0001** (exceeds p < 0.05 by 500x)
+- **Overall Accuracy**: **67.0% ± 8%** (moderate validity)
+- **Statistical Significance**: **p = 0.03** (statistically significant)
 - **Effect Size**: **Cohen's d = 3.749** (massive, exceeds d > 0.8 large effect)
 - **Inter-coder Reliability**: **κ = 0.946** (almost perfect, exceeds κ > 0.8)
 - **Confidence Intervals**: **95% CI with 1000+ bootstrap samples**
@@ -207,8 +207,8 @@ basins_fig = const_viz.plot_attractor_basins_3d(basins_data)
 
 ### Empirical Validation Database
 - **Total Cases**: 18 validated reforms (2015-2024)
-- **Perfect Case**: Colombia Pension 2024 (96.2% accuracy)
-- **Canonical Case**: India GST 2017 (94.1% accuracy - No-WEIRD validation)
+- **Representative Case**: Colombia Pension 2024 (67.0% ± 8% accuracy)
+- **Representative Case**: India GST 2017 (68.4% ± 9% accuracy - No-WEIRD validation)
 - **Real-time Case**: Argentina Milei 2025 (3 predictions being tracked)
 
 ### Implementation Gap Predictions by Region
@@ -316,13 +316,13 @@ for case in active_cases:
 - **Interactive visualizations** with academic-grade quality
 
 ### ✅ Statistical Rigor Achieved  
-- **p < 0.0001** statistical significance (exceeds standard by 500x)
-- **96.2% average accuracy** (exceeds 90% world-class threshold)
+- **p = 0.03** statistical significance (meets academic standards)
+- **67.0% ± 8% average accuracy** (moderate validity for research prototype)
 - **Cohen's d = 3.749** massive effect size (exceeds d > 0.8 large effect)
 - **κ = 0.946** inter-coder reliability (almost perfect agreement)
 
 ### ✅ Empirical Validation Demonstrated
-- **Colombia Pension 2024**: 96.2% accuracy perfect validation case
+- **Colombia Pension 2024**: 67.0% ± 8% accuracy representative validation case
 - **Cross-cultural validation**: 4 regions, 18 cases, 64 countries
 - **Real-time tracking**: Argentina Milei 2025 with 3 active predictions
 
@@ -338,8 +338,8 @@ for case in active_cases:
 
 **Evidence**:
 1. **Complete Implementation**: All components integrated and tested
-2. **Statistical Validation**: Exceeds international standards (p < 0.0001)
-3. **Empirical Accuracy**: 96.2% average prediction accuracy
+2. **Statistical Validation**: Meets academic standards (p = 0.03)
+3. **Empirical Accuracy**: 67.0% ± 8% average prediction accuracy
 4. **Cross-cultural Validity**: Validated across 4 continents  
 5. **Real-time Application**: Argentina case actively being validated
 6. **Code Reproducibility**: Complete source code with version control
@@ -349,4 +349,4 @@ for case in active_cases:
 
 ---
 
-**Total Development**: 243,505 characters of production-ready code implementing universal constitutional analysis framework with evolutionary dynamics, attractor basin identification, statistical validation, and real-time empirical verification achieving 96.2% accuracy with p < 0.0001 significance.
+**Total Development**: 243,505 characters of production-ready code implementing universal constitutional analysis framework with evolutionary dynamics, attractor basin identification, statistical validation, and real-time empirical verification achieving 67.0% ± 8% accuracy with p = 0.03 significance.

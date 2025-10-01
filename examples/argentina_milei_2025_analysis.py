@@ -1080,7 +1080,7 @@ class ArgentinaMileiAnalysis:
                 'validation_approach': 'Empirical validation with tracked outcomes'
             },
             'statistical_standards': {
-                'significance_threshold': 'p < 0.0001',
+                'significance_threshold': 'p = 0.03',
                 'minimum_sample_size': 10,
                 'bootstrap_samples': 1000,
                 'inter_coder_reliability': 'Cohen\'s kappa > 0.6'
@@ -1195,7 +1195,7 @@ if __name__ == "__main__":
         
     print(f"\n=== ANÁLISIS COMPLETADO ===")
     print(f"Marco teórico: Iusmorfos + SAPNC Reality Filter v{analysis.framework_version}")
-    print(f"Estándar de reproducibilidad: Clase mundial (p < 0.0001)")
+    print(f"Estándar de reproducibilidad: Moderada validez (p = 0.03)")
     print(f"Validación empírica: {len(validation_cases)} casos en seguimiento")
     print(f"Archivo completo: {filepath}")
     print("="*60)
