@@ -1,10 +1,11 @@
 """
 IUSMORFOS V4.0 - IUSESPACIO ENGINE
-Integrated predictive engine: 9D space + genealogy + competition + SAPNC reality filter
+Core Framework: 9D Constitutional Space + Dawkins Evolutionary Dynamics | Enhancement: Cultural Filter
 
-🎯 CORE INNOVATION: Complete political system analysis and evolution prediction
-🧬 VALIDATED FRAMEWORK: 96% accuracy Colombia case, cross-regional validation
-🌍 UNIVERSAL APPLICATION: WEIRD vs No-WEIRD societies, 85% world population
+🎯 CORE FRAMEWORK: IusSpace 9D + Genealogical Evolution (Primary predictive engines)
+🧬 RESEARCH PROTOTYPE: Moderate validity (AUC ~0.67 ± 0.08), requires empirical validation
+⚠️  ACADEMIC LIMITATIONS: Single-jurisdiction bias, synthetic data, parliamentary systems not validated
+🌍 THEORETICAL SCOPE: WEIRD vs No-WEIRD cultural adjustment layer, 85% world population
 """
 
 import numpy as np
