@@ -1,11 +1,17 @@
 """
 IUSMORFOS UNIVERSAL v5.0 - IusSpace 12D UNIVERSAL
-Expansión del framework dimensional para análisis legal comparativo global
+CORRECCIÓN ANTI-SESGO MAXIMAL: Protección total contra "ley de pequeños números"
 
-🌍 SCOPE: 12 dimensiones universales para análisis cross-cultural
-⚠️  REALITY FILTER: Métricas realistas, expectativas moderadas de precisión
-📊 TARGET ACCURACY: 65-75% dimensional prediction (appropriate for social sciences)
-🎯 PURPOSE: Herramienta analítica, no predictiva perfecta
+🚨 12D EXPANSION REALITY: Dimensiones adicionales SIN validación factorial empírica
+⚠️  CROSS-CULTURAL DIMENSIONS UNVALIDATED: Cultural dimensions puramente teóricas
+📊 ACCURACY TARGETS ELIMINATED: Precisión dimensional requiere estudios empíricos
+🔍 DIMENSIONAL ARTEFACT WARNING: Expansión aumenta riesgo de artefactos metodológicos
+
+SISTEMA 2 COMPLETAMENTE ACTIVADO:
+1. ✅ Representatividad dimensional: 12D expansion sin base empírica factorial  
+2. ✅ Intuición cultural eliminada: Cultural dimensions requieren validación empírica
+3. ✅ Riesgo dimensional máximo: Más dimensiones = mayor vulnerabilidad a artefactos
+4. ✅ Validación factorial diferida: 12D framework requiere análisis factorial real
 """
 
 import numpy as np

@@ -1,11 +1,17 @@
 """
 IUSMORFOS UNIVERSAL v5.0 - ANÁLISIS DE TRAYECTORIAS NORMATIVAS
-Sistema para analizar y limitar derroteros normativos con Reality Filter
+CORRECCIÓN ANTI-SESGO TOTAL: Máxima protección contra "ley de pequeños números"
 
-🎯 PURPOSE: Herramienta analítica para identificar constraints y limitar opciones, NO predicción perfecta  
-⚠️  REALITY FILTER: Expectativas moderadas, reconocimiento de limitaciones inherentes
-📊 ACCURACY TARGET: 60-70% constraint identification (appropriate for social science analysis)
-🔍 SCOPE: Análisis de factibilidad normativa, no determinismo predictivo
+🚨 TRAJECTORY PREDICTION REALITY: Análisis SIN base de trayectorias históricas reales
+⚠️  CONSTRAINT IDENTIFICATION UNVALIDATED: Constraints basados en teoría, NO empiria
+📊 ACCURACY TARGETS ELIMINATED: Identification rates requieren validación histórica
+🔍 SUCCESS PROBABILITY SUSPENDED: Probabilidades sin base en outcomes reales
+
+SISTEMA 2 EN PROTECCIÓN MÁXIMA:
+1. ✅ Representatividad trajectorial: Análisis basado en casos sintéticos únicamente
+2. ✅ Constraint intuition eliminated: Identification patterns sin validación empírica
+3. ✅ Success rate risk recognized: Sin historical outcomes = alta probabilidad artefactos  
+4. ✅ Predictive use prohibited: Framework conceptual hasta validación con casos reales
 """
 
 import numpy as np
