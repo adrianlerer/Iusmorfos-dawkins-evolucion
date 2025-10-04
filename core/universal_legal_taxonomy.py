@@ -1,10 +1,17 @@
 """
 IUSMORFOS UNIVERSAL v5.0 - TAXONOMÍA UNIVERSAL DE SISTEMAS LEGALES
-Universalización del Framework: 6 tradiciones legales principales con Reality Filter aplicado
+CORRECCIÓN ANTI-SESGO: Aplicación del prompt contra "ley de pequeños números"
 
-🌍 SCOPE: 150+ jurisdicciones clasificadas por tradición legal dominante
-⚠️  REALITY FILTER: Expectativas realistas, métricas honestas (no claims exageradas)
-📊 VALIDATION: Moderate accuracy expected (65-75%), appropriate for social sciences
+🔍 SAMPLE SIZE REALITY CHECK: Framework basado en simulaciones, NO validación empírica real
+⚠️  HONEST LIMITATIONS: Sin muestra estadísticamente robusta de 150+ jurisdicciones reales
+📊 METHODOLOGICAL HONESTY: Accuracy claims requieren validación empírica futura
+🚨 ARTEFACT WARNING: Confidence scores generados sintéticamente, no empíricamente
+
+APLICANDO SISTEMA 2 (PENSAMIENTO LENTO):
+- Muestras pequeñas/simuladas NO son representativas de poblaciones reales
+- Intuiciones estadísticas sustituidas por cálculo honesto de limitaciones
+- Resultados extremos frecuentes con muestras insuficientes
+- Resistiendo conclusiones prematuras hasta obtener datos empíricos reales
 """
 
 import numpy as np
@@ -49,6 +56,11 @@ class LegalSystemProfile:
     last_updated: datetime = field(default_factory=datetime.now)
     confidence_score: float = 0.6  # Realistic default, not inflated
     
+    # ANTI-SMALL-NUMBERS BIAS PROTECTION
+    empirical_sample_size: int = 0  # Actual empirical sample size (currently 0)
+    simulation_based: bool = True   # Framework currently based on simulation, not real data
+    validation_required: bool = True  # Empirical validation required for real use
+    
     # Subtradición específica
     sub_tradition: Optional[str] = None
     
@@ -60,15 +72,33 @@ class LegalSystemProfile:
 class UniversalLegalTaxonomy:
     """
     Sistema de clasificación universal de sistemas legales
+    CORRECCIÓN ANTI-SESGO: Aplicación rigurosa contra "ley de pequeños números"
     
-    🎯 OBJETIVO: Clasificación práctica para análisis comparativo
-    ⚠️  REALITY FILTER: Expectativas moderadas, no perfección predictiva
-    📊 ACCURACY TARGET: 65-75% classification accuracy (realista para ciencias sociales)
+    🚨 SAMPLE SIZE WARNING: Base de datos sintética, NO validación empírica real
+    ⚠️  METHODOLOGICAL HONESTY: Classification accuracy SIN base estadística robusta
+    📊 EMPIRICAL VALIDATION REQUIRED: Framework requiere validación con datos reales
+    
+    APLICANDO SISTEMA 2 (PENSAMIENTO LENTO):
+    1. ✅ Cuestionando representatividad: Muestra sintética NO es representativa
+    2. ✅ Priorizando cálculo: Accuracy claims sustituidos por limitaciones honestas
+    3. ✅ Reconociendo riesgo: Resultados extremos frecuentes sin base empírica
+    4. ✅ Resistiendo conclusiones: Framework en fase conceptual, no operacional
     """
     
     def __init__(self):
         self.legal_systems_db = self._initialize_legal_systems_database()
-        self.classification_accuracy = 0.68  # Realistic, not inflated
+        
+        # HONEST REALITY CHECK - ANTI-SMALL-NUMBERS BIAS
+        self.classification_accuracy = None  # UNKNOWN - requires empirical validation
+        self.empirical_validation_status = "NOT_VALIDATED"
+        self.conceptual_framework_only = True
+        self.sample_size_adequate = False
+        self.statistical_significance = None  # Unknown without real data
+        
+        # Warning flags
+        self.simulation_based = True
+        self.requires_empirical_testing = True
+        self.premature_conclusions_risk = "HIGH"
         
     def _initialize_legal_systems_database(self) -> Dict[str, LegalSystemProfile]:
         """
@@ -409,9 +439,53 @@ def main():
             print(f"     Confianza clasificación: {profile.confidence_score:.2f}")
             print(f"     Calidad datos: {profile.data_quality}")
     
-    print(f"\n✅ TAXONOMÍA UNIVERSAL IMPLEMENTADA CON REALITY FILTER")
-    print(f"🎯 Expectativas realistas: ~68% accuracy, cobertura limitada pero válida")
-    print(f"📊 Base sólida para análisis comparativo honesto y útil")
+    # CORRECCIÓN ANTI-SESGO: Verificación contra ley de pequeños números
+    print(f"\n🔍 VERIFICACIÓN ANTI-SESGO (SISTEMA 2 ACTIVADO):")
+    print(f"   ⚠️  Sample size real: 0 (framework conceptual)")
+    print(f"   🚨 Validation status: NOT_VALIDATED empíricamente")
+    print(f"   ❌ Accuracy claims: REMOVED (sin base estadística)")
+    print(f"   ✅ Honestidad metodológica: Framework requiere validación empírica")
+    print(f"   📊 Recomendación: NO usar para decisiones reales sin validación")
+    
+    print(f"\n✅ TAXONOMÍA UNIVERSAL - REALITY FILTER APLICADO")
+    print(f"🚨 FRAMEWORK CONCEPTUAL: Requiere validación empírica antes de uso operacional")
+    print(f"📊 Base teórica sólida para desarrollo futuro con datos reales")
+
+def verify_small_numbers_bias_protection(taxonomy: UniversalLegalTaxonomy) -> Dict:
+    """
+    Verificación específica contra el sesgo de ley de pequeños números
+    APLICANDO SISTEMA 2 para prevenir conclusiones prematuras
+    """
+    
+    verification_report = {
+        "bias_check_applied": True,
+        "system_2_activated": True,
+        "sample_size_adequate": False,
+        "empirical_validation_status": "REQUIRED",
+        "premature_conclusions_risk": "HIGH",
+        
+        "honest_assessment": {
+            "real_sample_size": 0,
+            "simulated_data_only": True,
+            "accuracy_claims_removed": True,
+            "confidence_intervals_synthetic": True,
+            "cross_cultural_validation_pending": True
+        },
+        
+        "recommendations": [
+            "Conduct empirical validation with real legal system data",
+            "Establish minimum sample sizes for each legal tradition",
+            "Replace synthetic confidence scores with empirical measurements", 
+            "Implement proper statistical significance testing",
+            "Resist operational use until adequate sample sizes achieved"
+        ],
+        
+        "framework_status": "CONCEPTUAL_PROTOTYPE",
+        "operational_readiness": "NOT_READY",
+        "academic_integrity": "MAINTAINED_WITH_CORRECTIONS"
+    }
+    
+    return verification_report
 
 if __name__ == "__main__":
     main()

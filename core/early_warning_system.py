@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
 """
 Early Warning System for Normative Trajectory Analysis
-Iusmorfos Universal Framework - Reality Filter Applied
+CORRECCIÓN ANTI-SESGO: Aplicación rigurosa contra "ley de pequeños números"
 
-Sistema de Alertas Tempranas con Métricas Honestas
-Implementa detección proactiva de riesgos normativos con umbrales realistas
-y expectativas académicas sinceras (accuracy: 65-75%, uncertainty: 20-30%).
+🚨 SAMPLE SIZE REALITY CHECK: Sistema basado en simulaciones, NO datos empíricos
+⚠️  METHODOLOGICAL HONESTY: Accuracy claims REMOVIDOS - sin base estadística
+📊 EMPIRICAL VALIDATION REQUIRED: Sistema requiere validación con alertas reales
+🔍 ARTEFACT WARNING: Umbrales y métricas generados sintéticamente
 
-@author: Iusmorfos Universal Framework
-@version: 1.0 - Reality Filter Implementation
-@accuracy: 67% ± 8% (p = 0.03) - Honest Academic Metrics
+APLICANDO SISTEMA 2 (PENSAMIENTO LENTO):
+1. ✅ Cuestionando representatividad: Simulaciones NO representan alertas reales
+2. ✅ Priorizando cálculo: "Intuiciones" de accuracy sustituidas por limitaciones
+3. ✅ Reconociendo riesgo: Sin base empírica, resultados son artefactos metodológicos  
+4. ✅ Resistiendo conclusiones: Framework conceptual, NO operacional
+
+@author: Iusmorfos Universal Framework - CORRECTED VERSION
+@version: 1.0 - Reality Filter + Anti-Small-Numbers Bias Protection
+@accuracy: UNKNOWN - Requires empirical validation with real alert data
 """
 
 import logging
@@ -130,24 +137,36 @@ class Alert:
 
 class EarlyWarningSystem:
     """
-    Sistema de Alertas Tempranas Universal con Reality Filter
+    Sistema de Alertas Tempranas Universal - CORRECCIÓN ANTI-SESGO APLICADA
+    SISTEMA 2 ACTIVADO: Verificación rigurosa contra ley de pequeños números
     
-    Implementa monitoreo proactivo de trayectorias normativas con:
-    - Métricas honestas de precisión (67% ± 8%)
-    - Umbrales realistas calibrados empíricamente  
-    - Gestión de incertidumbre explícita
-    - Validación cross-cultural
+    🚨 SAMPLE SIZE WARNING: Sistema basado en simulaciones, NO datos de alertas reales
+    ⚠️  EMPIRICAL VALIDATION REQUIRED: Métricas requieren validación con alertas históricas
+    📊 METHODOLOGICAL HONESTY: Accuracy claims REMOVIDOS hasta obtener datos reales
+    🔍 ARTEFACT ALERT: Umbrales y sensibilidad generados sintéticamente
+    
+    APLICANDO PROTECCIÓN CONTRA SESGO:
+    1. ✅ Representatividad cuestionada: Simulaciones ≠ alertas reales
+    2. ✅ Cálculo priorizado: Accuracy claims sustituidos por limitaciones honestas
+    3. ✅ Riesgo reconocido: Sin datos empíricos = alta probabilidad de artefactos
+    4. ✅ Conclusiones diferidas: Framework conceptual hasta validación empírica
     """
     
     def __init__(self, jurisdiction: str, legal_tradition: str):
         self.jurisdiction = jurisdiction
         self.legal_tradition = legal_tradition
         
-        # Reality Filter: Métricas honestas del sistema
-        self.alert_accuracy = 0.67  # 67% accuracy - realistic
-        self.false_positive_rate = 0.22  # 22% false positives - honest
-        self.detection_sensitivity = 0.71  # 71% sensitivity - empirical
-        self.prediction_horizon_days = 90  # 3 meses horizonte realista
+        # ANTI-SMALL-NUMBERS BIAS PROTECTION
+        self.alert_accuracy = None  # UNKNOWN - requires empirical validation
+        self.false_positive_rate = None  # UNKNOWN - requires real alert data
+        self.detection_sensitivity = None  # UNKNOWN - requires historical validation
+        self.prediction_horizon_days = 90  # Theoretical assumption only
+        
+        # Honest framework status
+        self.empirical_validation_status = "NOT_VALIDATED"
+        self.simulation_based = True
+        self.operational_readiness = False
+        self.sample_size_adequate = False
         
         # Base de datos de alertas e indicadores
         self.active_alerts: Dict[str, Alert] = {}
