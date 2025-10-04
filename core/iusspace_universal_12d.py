@@ -24,7 +24,10 @@ from datetime import datetime
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.decomposition import PCA
 
-from .universal_legal_taxonomy import LegalTradition, ConstitutionalSystem, LegalSystemProfile
+try:
+    from .universal_legal_taxonomy import LegalTradition, ConstitutionalSystem, LegalSystemProfile
+except ImportError:
+    from universal_legal_taxonomy import LegalTradition, ConstitutionalSystem, LegalSystemProfile
 
 @dataclass 
 class DimensionalProfile12D:

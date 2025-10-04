@@ -22,8 +22,12 @@ from enum import Enum
 from datetime import datetime, timedelta
 import json
 
-from .universal_legal_taxonomy import LegalTradition, ConstitutionalSystem, LegalSystemProfile
-from .iusspace_universal_12d import DimensionalProfile12D, UniversalIusSpace12D
+try:
+    from .universal_legal_taxonomy import LegalTradition, ConstitutionalSystem, LegalSystemProfile
+    from .iusspace_universal_12d import DimensionalProfile12D, UniversalIusSpace12D
+except ImportError:
+    from universal_legal_taxonomy import LegalTradition, ConstitutionalSystem, LegalSystemProfile
+    from iusspace_universal_12d import DimensionalProfile12D, UniversalIusSpace12D
 
 class ConstraintType(Enum):
     """Tipos de constraints que limitan trayectorias normativas"""
