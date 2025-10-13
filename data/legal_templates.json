@@ -1,0 +1,62 @@
+{
+  "oecd_gst_model": {
+    "text": "OECD Model Tax Convention on Income and on Capital - Goods and Services Tax (GST) Framework\n\nArticle 1: Scope and Application\nThis framework shall apply to all transactions involving the supply of goods and services within the jurisdiction, pursuant to the principles of destination-based consumption taxation.\n\nArticle 2: Tax Base and Rate Structure\nThe tax base shall comprise the transaction value of all taxable supplies, excluding specifically exempted categories as enumerated in Schedule A. The standard rate shall be set by the competent authority within the range of 10-20% of the tax base.\n\nArticle 3: Registration and Compliance\nAll persons engaged in the supply of taxable goods or services with annual turnover exceeding the threshold amount shall register with the tax authority and comply with return filing, payment, and record-keeping requirements.\n\nArticle 4: Input Tax Credit\nRegistered persons shall be entitled to claim input tax credit for taxes paid on inputs used in the course of taxable supplies, subject to documentation requirements and anti-avoidance provisions.\n\nArticle 5: Administration and Enforcement\nThe tax authority shall have powers of assessment, audit, investigation, and penalty imposition to ensure compliance with this framework. Appeals procedures shall be established in accordance with natural justice principles.\n\nSchedule A: Exempted Supplies (to be specified by domestic legislation)\nSchedule B: Zero-Rated Supplies (exports and specified categories)",
+    "jurisdiction": "international",
+    "legal_tradition": "civil_law",
+    "domain": "tax_law",
+    "formality_level": "high",
+    "context": {
+      "jurisdiction": "international",
+      "legal_tradition": "civil_law",
+      "domain": "tax_law",
+      "formality": 0.9,
+      "complexity": 0.75,
+      "temporal_scope": "permanent",
+      "power_distance": 60,
+      "individualism": 70,
+      "uncertainty_avoidance": 65,
+      "masculinity": 50,
+      "long_term_orientation": 60
+    }
+  },
+  "world_bank_regulatory": {
+    "text": "World Bank Model Regulatory Framework for Business Operations\n\nSection 1: Regulatory Objectives\nThis regulatory framework aims to facilitate business operations while protecting public interest, consumer rights, environmental sustainability, and fair competition.\n\nSection 2: Licensing and Permits\nAll businesses operating within the jurisdiction shall obtain necessary licenses and permits from the designated regulatory authority. The authority shall establish transparent, time-bound procedures for application processing.\n\nSection 3: Regulatory Standards\nBusinesses shall comply with minimum standards for product safety, environmental protection, labor rights, consumer protection, and anti-corruption measures as specified in subordinate regulations.\n\nSection 4: Monitoring and Inspection\nThe regulatory authority shall conduct periodic inspections and monitoring to ensure compliance. Inspection procedures shall be risk-based, proportionate, and conducted with minimal disruption to business operations.\n\nSection 5: Enforcement and Penalties\nNon-compliance shall result in graduated sanctions including warnings, fines, license suspension, or revocation, depending on severity and recurrence. Appeal mechanisms shall be available.\n\nSection 6: Regulatory Review\nThis framework shall be subject to periodic review every three years to assess effectiveness, efficiency, and continued relevance.\n\nAnnex I: Sector-Specific Requirements (to be developed)\nAnnex II: Fee Schedule (to be determined by competent authority)",
+    "jurisdiction": "international",
+    "legal_tradition": "hybrid_systems",
+    "domain": "commercial_law",
+    "formality_level": "medium_high",
+    "context": {
+      "jurisdiction": "international",
+      "legal_tradition": "hybrid_systems",
+      "domain": "commercial_law",
+      "formality": 0.8,
+      "complexity": 0.70,
+      "temporal_scope": "permanent",
+      "power_distance": 55,
+      "individualism": 65,
+      "uncertainty_avoidance": 60,
+      "masculinity": 50,
+      "long_term_orientation": 65
+    }
+  },
+  "constitutional_amendment": {
+    "text": "Constitutional Amendment Procedure - Model Framework\n\nArticle 1: Amendment Initiation\nProposals for constitutional amendment may be initiated by: (a) one-third of members of the national legislature; (b) the executive authority with legislative endorsement; or (c) popular petition meeting prescribed signature thresholds.\n\nArticle 2: Deliberation Process\nProposed amendments shall undergo thorough deliberation including committee review, public consultations, and expert testimony. A minimum deliberation period of six months shall be observed.\n\nArticle 3: Approval Requirements\nConstitutional amendments shall require approval by: (a) two-thirds majority of the national legislature in two separate sessions; and (b) ratification by three-fifths of sub-national legislative bodies or direct popular vote with simple majority.\n\nArticle 4: Entrenchment Clauses\nCertain fundamental provisions including democratic principles, human rights guarantees, and federal structure shall not be subject to amendment, or shall require enhanced procedures including national referendum.\n\nArticle 5: Promulgation and Effect\nApproved amendments shall be promulgated by the head of state and shall take effect upon publication or on a date specified in the amendment text.\n\nArticle 6: Judicial Review\nThe constitutional court shall have jurisdiction to review the procedural validity of amendments and ensure compliance with entrenchment clauses.\n\nTransitional Provisions: (to be specified in amendment text)",
+    "jurisdiction": "national",
+    "legal_tradition": "common_law",
+    "domain": "constitutional_law",
+    "formality_level": "very_high",
+    "context": {
+      "jurisdiction": "national",
+      "legal_tradition": "common_law",
+      "domain": "constitutional_law",
+      "formality": 0.95,
+      "complexity": 0.85,
+      "temporal_scope": "permanent",
+      "power_distance": 45,
+      "individualism": 75,
+      "uncertainty_avoidance": 55,
+      "masculinity": 50,
+      "long_term_orientation": 70
+    }
+  }
+}
