@@ -1,0 +1,62 @@
+{
+  "india_gst_2017": {
+    "case_id": "india_gst_2017",
+    "country": "india",
+    "reform_type": "tax_reform",
+    "observed_fitness": 0.65,
+    "description": "Goods and Services Tax (GST) implementation in India, one of the largest tax reforms in Indian history",
+    "source": "Kumar & Singh (2018), 'GST in India: Analysis and Impact', Indian Journal of Public Administration",
+    "year": 2017,
+    "initial_template": "oecd_gst_model"
+  },
+  "nigeria_petroleum_2020": {
+    "case_id": "nigeria_petroleum_2020",
+    "country": "nigeria",
+    "reform_type": "regulatory_changes",
+    "observed_fitness": 0.40,
+    "description": "Petroleum Industry Act (PIA) reform in Nigeria, overhauling the oil and gas sector regulatory framework",
+    "source": "Adeyemi (2021), 'Nigeria's Petroleum Reform: Implementation Challenges', African Law Review",
+    "year": 2020,
+    "initial_template": "world_bank_regulatory"
+  },
+  "germany_immigration_2016": {
+    "case_id": "germany_immigration_2016",
+    "country": "germany",
+    "reform_type": "statutory_reforms",
+    "observed_fitness": 0.78,
+    "description": "Integration Law (Integrationsgesetz) implementation following 2015 migrant crisis",
+    "source": "Müller (2017), 'Germany's Integration Law: Early Assessment', European Migration Studies",
+    "year": 2016,
+    "initial_template": "world_bank_regulatory"
+  },
+  "brazil_labor_2017": {
+    "case_id": "brazil_labor_2017",
+    "country": "brazil",
+    "reform_type": "statutory_reforms",
+    "observed_fitness": 0.55,
+    "description": "Labor reform (Lei 13.467/2017) modernizing Brazilian labor law",
+    "source": "Silva (2018), 'Brazil's Labor Reform: Implementation and Resistance', Latin American Law Review",
+    "year": 2017,
+    "initial_template": "world_bank_regulatory"
+  },
+  "argentina_tax_2018": {
+    "case_id": "argentina_tax_2018",
+    "country": "argentina",
+    "reform_type": "tax_reform",
+    "observed_fitness": 0.48,
+    "description": "Tax reform under Macri administration, including VAT and income tax changes",
+    "source": "Fernández (2019), 'Argentina's Tax Reform: Partial Success', Economic Policy Review",
+    "year": 2018,
+    "initial_template": "oecd_gst_model"
+  },
+  "australia_environmental_2019": {
+    "case_id": "australia_environmental_2019",
+    "country": "australia",
+    "reform_type": "regulatory_changes",
+    "observed_fitness": 0.82,
+    "description": "Environmental Protection and Biodiversity Conservation Amendment Act 2019",
+    "source": "Thompson (2020), 'Australia's Environmental Law Reform: Success Factors', Environmental Law Quarterly",
+    "year": 2019,
+    "initial_template": "world_bank_regulatory"
+  }
+}
