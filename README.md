@@ -342,6 +342,41 @@ python visualizations/universal_iusmorfos_visualizer.py
   - IusespacioEngine, CompetitiveArena, AttractorIdentifier, ValidationTracker maintained
   - Full backward compatibility while expanding to universal 12D capabilities
 
+## 🧬 Future Development: Advanced Dawkins Models (V6.0 Roadmap)
+
+**NEW: Theoretical Foundation for Next Generation Framework**
+
+Building on Dawkins' original biomorphs methodology (implemented in Iusmorfos V5.0), we have documented three advanced evolutionary models that will guide the development of V6.0:
+
+### 📐 Parametric Models (Conchomorfos-inspired)
+- **Concept**: Systematic exploration of "legal space" through continuous parameter variation
+- **Application to Iusmorfos**: Define legal norms through parameters (rigidity, scope, applicability)
+- **Advantage**: Moves from serendipitous discovery to systematic cartography of legal possibilities
+
+### 🧬 Embryological Models (Artromorfos-inspired)  
+- **Concept**: Evolution operates on rules of construction, not final forms
+- **Application to Iusmorfos**: Genes control legal document construction processes (clauses, sections, structure)
+- **Advantage**: Guarantees syntactic and semantic coherence of evolved legal norms
+
+### 🌐 Population Models (NetSpinner-inspired)
+- **Concept**: Multiple legal traditions evolve in parallel with "gene flow" between them
+- **Application to Iusmorfos**: Simulate civil law, common law, Islamic law as separate demos with doctrinal exchange
+- **Advantage**: Models legal transplants, comparative law influence, and tradition convergence
+
+**📚 Complete Analysis**: See [DAWKINS_ADVANCED_MODELS.md](docs/DAWKINS_ADVANCED_MODELS.md) for:
+- Detailed conceptual analysis of each model
+- Comparison with original biomorphs methodology
+- Concrete implementation roadmap for Iusmorfos V6.0
+- Projected timeline and validation strategy
+
+**🎯 V6.0 Development Goals**:
+1. Parametric layer for systematic legal space exploration (3-4 months)
+2. Embryological layer for structured norm generation (4-6 months)  
+3. Population layer for multi-tradition evolution simulation (6-8 months)
+4. Integration with Reality Filter + Kahneman corrections (3-4 months)
+
+**Impact**: These advanced models will enable Iusmorfos to move from single-lineage evolution to sophisticated multi-population dynamics, mirroring real-world legal system interaction and evolution.
+
 ## 🌍 Universal Validation Cases Database (Reality Filter Applied)
 
 **Legal Tradition Performance Patterns** with honest uncertainty bounds:

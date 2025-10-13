@@ -230,6 +230,24 @@ We welcome contributions! See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidel
 - **Visualization Enhancement**: Better jusmorph representations
 - **Cross-Cultural Analysis**: Non-Western legal traditions
 
+### 🧬 Advanced Development Roadmap (V6.0)
+
+Based on Dawkins' subsequent computational models beyond biomorphs, we have documented three advanced approaches for future development:
+
+**📐 Parametric Evolution** (Conchomorfos-inspired)
+- Systematic exploration of legal parameter space
+- See: [DAWKINS_ADVANCED_MODELS.md](DAWKINS_ADVANCED_MODELS.md#2️⃣-la-evolución-hacia-modelos-paramétricos-los-conchomorfos)
+
+**🧬 Embryological Construction** (Artromorfos-inspired)
+- Evolution of legal document construction rules
+- See: [DAWKINS_ADVANCED_MODELS.md](DAWKINS_ADVANCED_MODELS.md#3️⃣-incorporando-una-embriología-específica-los-artromorfos)
+
+**🌐 Population Dynamics** (NetSpinner-inspired)
+- Multi-tradition parallel evolution with gene flow
+- See: [DAWKINS_ADVANCED_MODELS.md](DAWKINS_ADVANCED_MODELS.md#4️⃣-la-expansión-a-nivel-de-población-el-modelo-netspinner)
+
+**Complete theoretical foundation**: [docs/DAWKINS_ADVANCED_MODELS.md](DAWKINS_ADVANCED_MODELS.md)
+
 ## 📚 Citation
 
 If you use this work in your research, please cite:
