@@ -42,7 +42,7 @@ A pesar de su éxito para ilustrar la selección acumulativa, el programa origin
 
 ---
 
-## 2️⃣ La Evolución hacia Modelos Paramétricos: Los 'Conchomorfos'
+## 2️⃣ La Evolución hacia Modelos Paramétricos: Los 'Caparazomorfos'
 
 ### 2.1. Introducción a los Modelos Paramétricos
 
@@ -57,17 +57,17 @@ El paso de un modelo puramente recursivo a uno **paramétrico** representó un a
 - Exploración sistemática de todas las formas posibles
 - Comparación directa entre formas virtuales y formas naturales
 
-### 2.2. Análisis del Programa 'Conchomorfos'
+### 2.2. Análisis del Programa 'Caparazomorfos'
 
-Los "Conchomorfos" son uno de los desarrollos computacionales más sofisticados de Dawkins, diseñados para generar **conchas de moluscos**. 
+Los "Caparazomorfos" son uno de los desarrollos computacionales más sofisticados de Dawkins, diseñados para generar **caparazones de moluscos** (espirales tipo nautilus). 
 
-**Inspiración**: Trabajo pionero del paleontólogo **David Raup**, quien modeló matemáticamente el "espacio de todas las conchas computables".
+**Inspiración**: Trabajo pionero del paleontólogo **David Raup**, quien modeló matemáticamente el "espacio de todos los caparazones computables" (morphospace de espirales).
 
 #### Parámetros Clave del Modelo
 
 **1. Abocinamiento**
-- Define la tasa a la cual aumenta el diámetro del tubo de la concha
-- Abocinamiento alto → concha que se abre rápidamente
+- Define la tasa a la cual aumenta el diámetro del tubo del caparazón
+- Abocinamiento alto → caparazón que se abre rápidamente
 - Abocinamiento bajo → espiral más compacta
 
 **2. Verma**
@@ -78,7 +78,7 @@ Los "Conchomorfos" son uno de los desarrollos computacionales más sofisticados 
 
 ### 2.3. Diferenciación Clave frente a los Biomorfos
 
-| Aspecto | Biomorfos | Conchomorfos |
+| Aspecto | Biomorfos | Caparazomorfos |
 |---------|-----------|--------------|
 | **Filosofía** | Descubrir formas a través de caminata serendipitosa | Cartografiar un universo de posibilidades conocido |
 | **Espacio de Formas** | "Espacio genético" abstracto | "Espacio teórico" matemáticamente definido |
@@ -186,7 +186,7 @@ Descrito en *Escalando el Monte Improbable*, el modelo "NetSpinner" fue utilizad
 | Modelo | Principio Fundamental | Nivel de Simulación | Diferencia Clave vs. 'Evolución' (Biomorfos) |
 |--------|----------------------|---------------------|---------------------------------------------|
 | **Biomorfos** | Crecimiento recursivo simple | Individuo/Linaje único | Modelo de referencia |
-| **Conchomorfos** | Generación paramétrica de formas | Individuo (exploración de espacio de formas) | Utiliza parámetros numéricos (abocinamiento, verma) en lugar de un árbol genético recursivo |
+| **Caparazomorfos** | Generación paramétrica de formas | Individuo (exploración de espacio de formas) | Utiliza parámetros numéricos (abocinamiento, verma) en lugar de un árbol genético recursivo |
 | **Artromorfos** | "Embriología" específica con reglas de desarrollo | Individuo con desarrollo complejo | Introduce un proceso de construcción estructurado y específico (para artrópodos) en lugar de un crecimiento genérico |
 | **NetSpinner** | Evolución paralela con migración | Múltiples poblaciones ("demos") | Simula la interacción entre poblaciones geográficamente separadas a través del "goteo de genes" |
 
@@ -194,7 +194,7 @@ Descrito en *Escalando el Monte Improbable*, el modelo "NetSpinner" fue utilizad
 
 El análisis de estos modelos computacionales avanzados ofrece un **marco conceptual robusto** para expandir las capacidades del sistema "Iusmorfos". En lugar de limitarse a la mutación simple de un linaje normativo, se pueden incorporar los siguientes principios:
 
-#### 📐 Enfoque Paramétrico (Inspirado en Conchomorfos)
+#### 📐 Enfoque Paramétrico (Inspirado en Caparazomorfos)
 
 **Implementación propuesta**:
 - Definir y hacer evolucionar diferentes "tipos" de normas jurídicas
@@ -268,7 +268,7 @@ Sistema Civil Law (adapta precedente X como principio codificado)
 │ IUSMORFOS V6.0 - ADVANCED EVOLUTIONARY FRAMEWORK           │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  1️⃣ PARAMETRIC LAYER (Conchomorfos-inspired)              │
+│  1️⃣ PARAMETRIC LAYER (Caparazomorfos-inspired)           │
 │     • Rigidity parameter space                             │
 │     • Scope parameter space                                │
 │     • Applicability parameter space                        │

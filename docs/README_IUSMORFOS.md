@@ -234,9 +234,9 @@ We welcome contributions! See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidel
 
 Based on Dawkins' subsequent computational models beyond biomorphs, we have documented three advanced approaches for future development:
 
-**📐 Parametric Evolution** (Conchomorfos-inspired)
+**📐 Parametric Evolution** (Caparazomorfos-inspired)
 - Systematic exploration of legal parameter space
-- See: [DAWKINS_ADVANCED_MODELS.md](DAWKINS_ADVANCED_MODELS.md#2️⃣-la-evolución-hacia-modelos-paramétricos-los-conchomorfos)
+- See: [DAWKINS_ADVANCED_MODELS.md](DAWKINS_ADVANCED_MODELS.md#2️⃣-la-evolución-hacia-modelos-paramétricos-los-caparazomorfos)
 
 **🧬 Embryological Construction** (Artromorfos-inspired)
 - Evolution of legal document construction rules

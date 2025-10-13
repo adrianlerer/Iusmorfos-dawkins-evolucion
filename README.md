@@ -348,7 +348,7 @@ python visualizations/universal_iusmorfos_visualizer.py
 
 Building on Dawkins' original biomorphs methodology (implemented in Iusmorfos V5.0), we have documented three advanced evolutionary models that will guide the development of V6.0:
 
-### 📐 Parametric Models (Conchomorfos-inspired)
+### 📐 Parametric Models (Caparazomorfos-inspired)
 - **Concept**: Systematic exploration of "legal space" through continuous parameter variation
 - **Application to Iusmorfos**: Define legal norms through parameters (rigidity, scope, applicability)
 - **Advantage**: Moves from serendipitous discovery to systematic cartography of legal possibilities
