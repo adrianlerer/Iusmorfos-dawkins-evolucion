@@ -1,0 +1,18 @@
+{
+  "phase_3": {
+    "ideology_effect": 0.219375,
+    "environment_effect": 0.3625,
+    "ratio": 1.6524216524216524
+  },
+  "phase_5": {
+    "predicted": 0.27749999999999997,
+    "empirical": 0.31666666666666665,
+    "error": 0.03916666666666668,
+    "within_ci": true
+  },
+  "phase_7": {
+    "num_objections": 5,
+    "num_recommendations": 5,
+    "critical_objection": "n=3 statistical power"
+  }
+}
